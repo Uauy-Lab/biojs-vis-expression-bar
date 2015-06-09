@@ -7,6 +7,15 @@
     "name": "Ricardo H. Ramirez-Gonzalez",
     "email": "homo.nec.loco@gmail.com"
   },
+  "sniper": {
+    "js": [
+      "/build/expression-bar.js"
+    ],
+    "css": [
+      "/css/expression-bar.css"
+    ],
+    "first": "exporession-bar-test"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/homonecloco/expression-bar.git"
@@ -24,11 +33,16 @@
   "scripts": {
     "test": "gulp test",
     "build-browser": "mkdirp build; browserify browser.js -o build/expression-bar.js",
-	"build-browser-min": "gulp build-browser-gzip",
-	"prepublish": "gulp",
+    "build-browser-min": "gulp build-browser-gzip",
+    "prepublish": "gulp",
     "watch": "mkdirp build; watchify browser.js -o build/expression-bar.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "biojs-events": "0.0.4",
+    "d3": "^3.5.5",
+    "jquery": "^2.1.4",
+    "sniper": "^0.2.16"
+  },
   "devDependencies": {
     "browserify": "~4.2.0",
     "chai": "^1.9.1",
@@ -46,5 +60,9 @@
     "uglify-js": "~2.4.15",
     "watchify": "^1.0.2"
   },
-  "keywords": ["rna-seq","gene expression","barchart"]
+  "keywords": [
+    "rna-seq",
+    "gene expression",
+    "barchart"
+  ]
 }
