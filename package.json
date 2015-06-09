@@ -1,0 +1,50 @@
+{
+  "name": "expression-bar",
+  "description": "Simple barchart to show expression levels across experiments",
+  "version": "0.1.0",
+  "homepage": "https://github.com/homonecloco/expression-bar",
+  "author": {
+    "name": "Ricardo H. Ramirez-Gonzalez",
+    "email": "homo.nec.loco@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/homonecloco/expression-bar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/homonecloco/expression-bar/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/homonecloco/expression-bar/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/expression-bar",
+  "scripts": {
+    "test": "gulp test",
+    "build-browser": "mkdirp build; browserify browser.js -o build/expression-bar.js",
+	"build-browser-min": "gulp build-browser-gzip",
+	"prepublish": "gulp",
+    "watch": "mkdirp build; watchify browser.js -o build/expression-bar.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "~4.2.0",
+    "chai": "^1.9.1",
+    "gulp": "^3.8.8",
+    "gulp-browserify": "^0.5.0",
+    "gulp-gzip": "0.0.8",
+    "gulp-jshint": "^1.8.4",
+    "gulp-mocha": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-uglify": "^1.0.1",
+    "gulp-watch": "^1.0.2",
+    "mkdirp": "^0.5.0",
+    "mocha": "~1.20.1",
+    "uglify-js": "~2.4.15",
+    "watchify": "^1.0.2"
+  },
+  "keywords": ["rna-seq","gene expression","barchart"]
+}
