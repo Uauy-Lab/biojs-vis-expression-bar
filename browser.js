@@ -1,1 +1,1 @@
-expressionbar = require('./index');
+biovisexpressionbar = require('./index');
