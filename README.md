@@ -15,19 +15,7 @@ expressionbar.hello("biojs"); // "hello biojs"
 
 ## Documentation
 
-#### .hello(name)
 
-**Parameter**: `name`
-**Type**: `String`
-**Example**: `biojs`
-
-The 'hello' method is responsible for showing a name.
-
-How to use this method
-
-```javascript
-expressionbar.hello('biojs'); // "hello biojs"
-```
 
 ## Contributing
 

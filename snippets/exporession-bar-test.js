@@ -1,5 +1,4 @@
 
-var biovisexpressionbar = require("biojs-vis-expression-bar");
 
 var container_div="bar_expression_viewer";
 
