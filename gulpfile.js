@@ -1,6 +1,6 @@
 /*
- * expression-bar
- * https://github.com/homonecloco/expression-bar
+ * bio-vis-expression-bar
+ * https://github.com/homonecloco/bio-vis-expression-bar
  *
  * Copyright (c) 2014 Ricardo H. Ramirez-Gonzalez
  * Licensed under the MIT license.

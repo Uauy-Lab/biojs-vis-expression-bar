@@ -1,7 +1,7 @@
 {
   "name": "bio-vis-expression-bar",
   "description": "Simple barchart to show expression levels across experiments",
-  "version": "0.1.6",
+  "version": "0.20",
   "homepage": "https://github.com/homonecloco/biojs-vis-expression-bar",
   "author": {
     "name": "Ricardo H. Ramirez-Gonzalez",
@@ -9,7 +9,7 @@
   },
   "sniper": {
     "js": [
-      "/build/expression-bar.js"
+      "/build/bio-vis-expression-bar.js"
     ],
     "css": [
       "/css/expression-bar.css"
@@ -30,13 +30,13 @@
       "url": "https://github.com/homonecloco/biojs-vis-expression-bar/blob/master/LICENSE"
     }
   ],
-  "main": "lib/expression-bar",
+  "main": "lib/bio-vis-expression-bar",
   "scripts": {
     "test": "gulp test",
-    "build-browser": "mkdirp build; browserify browser.js -o build/expression-bar.js",
+    "build-browser": "mkdirp build; browserify browser.js -o build/bio-vis-expression-bar.js",
     "build-browser-min": "gulp build-browser-gzip",
     "prepublish": "gulp",
-    "watch": "mkdirp build; watchify browser.js -o build/expression-bar.js"
+    "watch": "mkdirp build; watchify browser.js -o build/bio-vis-expression-bar.js"
   },
   "dependencies": {
     "biojs-events": "0.0.4",
