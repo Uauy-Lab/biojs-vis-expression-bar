@@ -1,8 +1,8 @@
 {
-  "name": "expression-bar",
+  "name": "bio-vis-expression-bar",
   "description": "Simple barchart to show expression levels across experiments",
-  "version": "0.1.0",
-  "homepage": "https://github.com/homonecloco/expression-bar",
+  "version": "0.1.3",
+  "homepage": "https://github.com/homonecloco/biojs-vis-expression-bar",
   "author": {
     "name": "Ricardo H. Ramirez-Gonzalez",
     "email": "homo.nec.loco@gmail.com"
@@ -19,15 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/homonecloco/expression-bar.git"
+    "url": "git://github.com/homonecloco/biojs-vis-expression-bar.git"
   },
   "bugs": {
-    "url": "https://github.com/homonecloco/expression-bar/issues"
+    "url": "https://github.com/homonecloco/biojs-vis-expression-bar/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/homonecloco/expression-bar/blob/master/LICENSE"
+      "url": "https://github.com/homonecloco/biojs-vis-expression-bar/blob/master/LICENSE"
     }
   ],
   "main": "lib/expression-bar",
@@ -64,6 +64,7 @@
   "keywords": [
     "rna-seq",
     "gene expression",
-    "barchart"
+    "barchart", 
+    "biojs"
   ]
 }
