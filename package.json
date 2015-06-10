@@ -14,7 +14,8 @@
     "css": [
       "/css/expression-bar.css"
     ],
-    "first": "exporession-bar-test"
+    "first": "exporession-bar-test",
+    "snippets": ["snippets"]
   },
   "repository": {
     "type": "git",

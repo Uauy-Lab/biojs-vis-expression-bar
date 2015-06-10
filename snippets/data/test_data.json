@@ -1,0 +1,17 @@
+{"fpkm": [
+  {"name": "Stydt1", "group":1,    "value":  4},
+  {"name": "Stydt2", "group":1,    "value":  8},
+  {"name": "Stydt3", "group":1,    "value": 15},
+  {"name": "Stydt4", "group":2,    "value": 16},
+  {"name": "Stydt5", "group":2,    "value": 23},
+  {"name": "Stydt6", "group":2,    "value": 42}
+],
+"count": [
+  {"name": "Stydt1", "group":1,    "value":  40},
+  {"name": "Stydt2", "group":1,    "value":  80},
+  {"name": "Stydt3", "group":1,    "value": 150},
+  {"name": "Stydt4", "group":2,    "value": 160},
+  {"name": "Stydt5", "group":2,    "value": 230},
+  {"name": "Stydt6", "group":2,    "value": 420}
+]
+}
