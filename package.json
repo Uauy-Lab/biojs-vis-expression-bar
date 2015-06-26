@@ -42,7 +42,7 @@
   "dependencies": {
     "biojs-events": "0.0.4",
     "d3": "^3.5.5",
-    "jquery": "^2.1.4",
+    "jquery": "^2.1.4"
   },
   "devDependencies": {
     "browserify": "~4.2.0",
@@ -65,7 +65,7 @@
   "keywords": [
     "rna-seq",
     "gene expression",
-    "barchart", 
+    "barchart",
     "biojs"
   ]
 }
