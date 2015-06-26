@@ -1,7 +1,7 @@
 {
   "name": "bio-vis-expression-bar",
   "description": "Simple barchart to show expression levels across experiments",
-  "version": "0.1.24",
+  "version": "0.1.25",
   "homepage": "https://github.com/homonecloco/biojs-vis-expression-bar",
   "author": {
     "name": "Ricardo H. Ramirez-Gonzalez",
@@ -15,7 +15,9 @@
       "/css/expression-bar.css"
     ],
     "first": "exporession-bar-test",
-    "snippets": ["snippets"]
+    "snippets": [
+      "snippets"
+    ]
   },
   "repository": {
     "type": "git",
@@ -42,7 +44,7 @@
   "dependencies": {
     "biojs-events": "0.0.4",
     "d3": "^3.5.5",
-    "jquery": "^2.1.4"    
+    "jquery": "^2.1.4"
   },
   "devDependencies": {
     "browserify": "~4.2.0",
@@ -65,7 +67,7 @@
   "keywords": [
     "rna-seq",
     "gene expression",
-    "barchart", 
+    "barchart",
     "biojs"
   ]
 }
