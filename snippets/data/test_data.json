@@ -45,21 +45,21 @@
 		
 		"fpkm": 
 		{
-			"1":{"experiment":"1", "value": 4},
-			"2":{"experiment":"2", "value": 8},
-			"3":{"experiment":"3", "value":15},
-			"4":{"experiment":"4", "value":16},
-			"5":{"experiment":"5", "value":23},
-			"6":{"experiment":"6", "value":42}
+			"1":{"experiment":"1", "value":90},
+			"2":{"experiment":"2", "value": 2},
+			"3":{"experiment":"3", "value":32},
+			"4":{"experiment":"4", "value":32},
+			"5":{"experiment":"5", "value":12},
+			"6":{"experiment":"6", "value":12}
 		},
 		"count": 
 		{
-			"1":{"experiment":"1", "value":  40},
-			"2":{"experiment":"2", "value": 800},
-			"3":{"experiment":"3", "value":1110},
-			"4":{"experiment":"4", "value":1130},
-			"5":{"experiment":"5", "value":2220},
-			"6":{"experiment":"6", "value":4420}
+			"1":{"experiment":"1", "value":  400},
+			"2":{"experiment":"2", "value": 8000},
+			"3":{"experiment":"3", "value":11100},
+			"4":{"experiment":"4", "value":11300},
+			"5":{"experiment":"5", "value":22200},
+			"6":{"experiment":"6", "value":44200}
 		}
 	}
 }
