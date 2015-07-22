@@ -44,7 +44,9 @@
   "dependencies": {
     "biojs-events": "0.0.4",
     "d3": "^3.5.5",
-    "jquery": "^2.1.4"
+    "jquery": "^2.1.4",
+    "science" : "1.9.2",
+    "colorbrewer" : "0.0.2"
   },
   "devDependencies": {
     "browserify": "~4.2.0",
