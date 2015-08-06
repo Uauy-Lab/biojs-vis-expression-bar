@@ -43,10 +43,11 @@
   },
   "dependencies": {
     "biojs-events": "0.0.4",
+    "colorbrewer": "0.0.2",
     "d3": "^3.5.5",
     "jquery": "^2.1.4",
-    "science" : "1.9.2",
-    "colorbrewer" : "0.0.2"
+    "jquery-ui": "^1.10.5",
+    "science": "1.9.2"
   },
   "devDependencies": {
     "browserify": "~4.2.0",
