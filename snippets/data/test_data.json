@@ -10,9 +10,13 @@
 	},
 	"groups":
 	{
-			"1" : {"description": "group one", "factors":{"Age":"20", "species":"TA"}}, 
+			"1" : {"description": "group one", "factors":{"Age":"25", "species":"TA"}}, 
 			"2" : {"description": "group two", "factors":{"Age":"20", "species":"TU"}},
-			"3" : {"description": "group tree", "factors":{"Age":"25", "species":"TA"}}
+			"3" : {"description": "group tree", "factors":{"Age":"20", "species":"TA"}}
+	},
+	"factorOrder":{
+		"Age" : ["20", "25", "30"], 
+		"species": ["TU", "TA"]
 	},
 	"studies":
 	{
