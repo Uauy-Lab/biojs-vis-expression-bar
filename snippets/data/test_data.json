@@ -16,7 +16,7 @@
 	},
 	"factorOrder":{
 		"Age" : {"20":1, "25":2, "30":3}, 
-		"species": {"TU":3, "TA":2}
+		"species": { "TA":2, "TU":1}
 	},
 	"studies":
 	{
