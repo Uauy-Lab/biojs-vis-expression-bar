@@ -22,6 +22,10 @@
 		"Age" : {"20":"20", "25":"25", "30":"30"}, 
 		"species": { "TA":"Triticum aestivum", "TU":"Triticum urartu"}
 	},
+	"selectedFactors":{
+		"Age" : {"20":true, "25":false, "30":false}, 
+		"species": { "TA":true, "TU":true}
+	},
 	"studies":
 	{
 		"1" : {"description": "study one"}, 
