@@ -18,6 +18,10 @@
 		"Age" : {"20":1, "25":2, "30":3}, 
 		"species": { "TA":2, "TU":1}
 	},
+	"longFactorName":{
+		"Age" : {"20":"20", "25":"25", "30":"30"}, 
+		"species": { "TA":"Triticum aestivum", "TU":"Triticum urartu"}
+	},
 	"studies":
 	{
 		"1" : {"description": "study one"}, 
