@@ -2255,6 +2255,20 @@
         }
     }, 
     "gene": "Traes_5BS_0AFC3F795.1", 
+    "compare": "Traes_4DS_1CF5D9107.1",
+    
+    "homoeologues": {
+        "Traes_5BS_0AFC3F795.1":{
+            "B": "Traes_5BS_0AFC3F795.1",
+            "D": "Traes_5DS_C204EBAA9.1"
+        },
+        "Traes_4DS_1CF5D9107.1":{
+            "A": "Traes_4AL_F9DCE24F4.1",
+            "B": "Traes_4BS_0C44BD7CF.1",
+            "D": "Traes_4DS_1CF5D9107.1"
+        }
+    },
+
     "groups": {
         "1": {
             "description": "Group1", 

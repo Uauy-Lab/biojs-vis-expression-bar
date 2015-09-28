@@ -10,7 +10,8 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	data: "data/realTestHom.js", 
 	groupBy: 'groups', 
 	renderProperty: 'count', 
-	width: '1000'
+	width: '1000',
+	fontFamily:'Palatino Linotype, Book Antiqua, Palatino, serif', 
 }
 	
 );
