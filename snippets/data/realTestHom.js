@@ -2091,6 +2091,29 @@
             "study": "3"
         }
     }, 
+    "defaultFactorSelection":{
+        "Age": false, 
+        "High level Stress-disease": true, 
+        "High level age": true, 
+        "High level tissue":true,
+        "High level variety":true,
+        "Stress-disease":false,
+        "study":false,
+        "Tissue": false,
+        "Variety": false
+    },
+    "defaultFactorOrder":[
+        "study",
+        "High level age", 
+        "Age", 
+        "High level tissue",
+        "Tissue",
+        "High level variety",
+        "Variety",
+        "High level Stress-disease", 
+        "Stress-disease"
+        
+    ],
     "factorOrder": {
         "Age": {
             "10dpa": 17, 
