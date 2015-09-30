@@ -2104,14 +2104,15 @@
     },
     "defaultFactorOrder":[
         "study",
-        "High level Stress-disease", 
-        "Stress-disease",
         "High level age", 
         "Age", 
         "High level tissue",
         "Tissue",
         "High level variety",
-        "Variety"
+        "Variety",
+        "High level Stress-disease", 
+        "Stress-disease"
+        
     ],
     "factorOrder": {
         "Age": {
