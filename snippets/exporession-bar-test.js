@@ -12,6 +12,7 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	renderProperty: 'count', 
 	width: '1000',
 	fontFamily:'Palatino Linotype, Book Antiqua, Palatino, serif', 
+	barHeight: 12
 }
 	
 );
