@@ -19,10 +19,10 @@ expressionbar.hello("biojs"); // "hello biojs"
 
 ## Contributing
 
-Please submit all issues and pull requests to the [homonecloco/expression-bar](http://github.com/homonecloco/expression-bar) repository!
+Please submit all issues and pull requests to the [https://github.com/homonecloco/biojs-vis-expression-bar](homonecloco/expression-bar) repository!
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/homonecloco/expression-bar/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/homonecloco/biojs-vis-expression-bar/issues).
 
 ## License 
 
