@@ -1,4 +1,12 @@
-biovisexpressionbar = require("bio-vis-expression-bar");
+var isNode = false;
+
+if (typeof module !== 'undefined' && module.exports) {
+            isNode = true;
+}
+
+if(isNode){
+	biovisexpressionbar = require("bio-vis-expression-bar");	
+}
 
 var container_div="bar_expression_viewer";
 
@@ -11,6 +19,5 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	width: '1000',
 	fontFamily:'Palatino Linotype, Book Antiqua, Palatino, serif', 
 	barHeight: 12
-}
-	
+}	
 );
