@@ -1,12 +1,6 @@
-var isNode = false;
 
-if (typeof module !== 'undefined' && module.exports) {
-            isNode = true;
-}
+biovisexpressionbar = require("bio-vis-expression-bar");	
 
-if(isNode){
-	biovisexpressionbar = require("bio-vis-expression-bar");	
-}
 
 var container_div="bar_expression_viewer";
 
