@@ -11,7 +11,7 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	width: '1000',
 	fontFamily:'Palatino Linotype, Book Antiqua, Palatino, serif', 
 	barHeight: 12,
-	headerOffset: 200,
+	headerOffset: 150,
 	plot:'HeatMap'
 }	
 );
