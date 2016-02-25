@@ -49,7 +49,8 @@
     "jquery": "^2.1.4",
     "jquery-ui": "^1.10.5",
     "jquery-ui-browserify": "^1.11.0-pre-seelio",
-    "science": "1.9.2"
+    "science": "1.9.2",
+    "string.prototype.startswith":"0.2.0"
   },
   "devDependencies": {
     "browserify": "~4.2.0",
