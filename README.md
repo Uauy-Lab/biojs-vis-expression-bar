@@ -6,7 +6,7 @@
 > Simple barchart to show expression levels across experiments
 
 ## Getting Started
-Install the module with: `npm install biojs-vis-expression-bar`
+Install the module with: `npm install bio-vis-expression-bar`
 
 ```javascript
 
