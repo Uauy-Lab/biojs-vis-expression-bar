@@ -75,6 +75,7 @@
     "rna-seq",
     "gene expression",
     "barchart",
-    "biojs"
+    "biojs", 
+    "heatmap"
   ]
 }
