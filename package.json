@@ -3,17 +3,24 @@
   "description": "Simple barchart to show expression levels across experiments",
   "version": "0.6.13",
   "homepage": "https://github.com/homonecloco/biojs-vis-expression-bar",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/homonecloco/biojs-vis-expression-bar/blob/master/LICENSE"
+    }
+  ],
   "author": {
     "name": "Ricardo H. Ramirez-Gonzalez",
     "email": "homo.nec.loco@gmail.com"
   },
   "sniper": {
     "js": [
+      "/node_modules/jquery/dist/jquery.js",
       "/build/bio-vis-expression-bar.js"
     ],
     "css": [
       "/css/expression-bar.css",
-      "/node_modules/jquery-ui/themes/smoothness/jquery-ui.css"
+      "/node_modules/jquery-ui-dist/jquery-ui.css"
     ],
     "first": "exporession-bar-test",
     "snippets": [
@@ -27,12 +34,6 @@
   "bugs": {
     "url": "https://github.com/homonecloco/biojs-vis-expression-bar/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/homonecloco/biojs-vis-expression-bar/blob/master/LICENSE"
-    }
-  ],
   "main": "lib/biovisexpressionbar",
   "scripts": {
     "test": "gulp test",
@@ -44,32 +45,32 @@
   },
   "dependencies": {
     "biojs-events": "0.0.4",
-    "colorbrewer": "0.0.2",
-    "d3": "^3.5.5",
-    "jquery": "^2.1.4",
+    "colorbrewer": "1.1",
+    "d3": "^4",
+    "jquery": "^3.2",
     "jquery-ui": "^1.10.5",
     "jquery-ui-browserify": "^1.11.0-pre-seelio",
-    "science": "1.9.2",
+    "science": "~1.9.3",
     "string.prototype.startswith": "0.2.0"
   },
   "devDependencies": {
-    "browserify": "~4.2.0",
-    "chai": "^1.9.1",
-    "gulp": "^3.8.8",
+    "browserify": "~14.5.0",
+    "chai": "~4.1",
+    "gulp": "~3.9",
     "gulp-browserify": "^0.5.0",
-    "gulp-gzip": "0.0.8",
-    "gulp-jshint": "^1.8.4",
-    "gulp-mocha": "^1.0.0",
-    "gulp-mocha-phantomjs": "^0.10.1",
+    "gulp-gzip": "~1.4",
+    "gulp-jshint": "^2.0",
+    "gulp-mocha": "^4.3",
+    "gulp-mocha-phantomjs": "^0.12",
     "gulp-rename": "^1.2.0",
-    "gulp-rimraf": "^0.1.0",
-    "gulp-uglify": "^1.0.1",
-    "gulp-watch": "^1.0.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-uglify": "^3.0",
+    "gulp-watch": "^4.3",
     "mkdirp": "^0.5.0",
-    "mocha": "~1.20.1",
+    "mocha": "~4.0",
     "sniper": "^0.2.16",
-    "uglify-js": "~2.4.15",
-    "watchify": "^1.0.2"
+    "uglify-js": "~3.2",
+    "watchify": "^3.9"
   },
   "keywords": [
     "rna-seq",
