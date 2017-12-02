@@ -1,7 +1,7 @@
 {
   "name": "bio-vis-expression-bar",
   "description": "Simple barchart to show expression levels across experiments",
-  "version": "0.6.13",
+  "version": "0.7.0",
   "homepage": "https://github.com/homonecloco/biojs-vis-expression-bar",
   "licenses": [
     {
@@ -18,7 +18,6 @@
       "/build/bio-vis-expression-bar.js",
       "/node_modules/jquery/dist/jquery.js",
       "/node_modules/jquery-ui-dist/jquery-ui.js"
-      
     ],
     "css": [
       "/css/expression-bar.css",
@@ -79,7 +78,7 @@
     "rna-seq",
     "gene expression",
     "barchart",
-    "biojs", 
+    "biojs",
     "heatmap"
   ]
 }
