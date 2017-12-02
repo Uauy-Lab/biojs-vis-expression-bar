@@ -15,12 +15,15 @@
   },
   "sniper": {
     "js": [
+      "/build/bio-vis-expression-bar.js",
       "/node_modules/jquery/dist/jquery.js",
-      "/build/bio-vis-expression-bar.js"
+      "/node_modules/jquery-ui-dist/jquery-ui.js"
+      
     ],
     "css": [
       "/css/expression-bar.css",
-      "/node_modules/jquery-ui-dist/jquery-ui.css"
+      "/node_modules/jquery-ui-dist/jquery-ui.css",
+      "/node_modules/jquery-ui-dist/jquery-ui.theme.css"
     ],
     "first": "exporession-bar-test",
     "snippets": [
