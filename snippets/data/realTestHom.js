@@ -2093,7 +2093,7 @@
     }, 
     "defaultFactorSelection":{
         "Age": false, 
-        "High level Stress-disease": true, 
+        "High level stress-disease": true, 
         "High level age": true, 
         "High level tissue":true,
         "High level variety":true,
@@ -2110,7 +2110,7 @@
         "Tissue",
         "High level variety",
         "Variety",
-        "High level Stress-disease", 
+        "High level stress-disease", 
         "Stress-disease"
         
     ],
@@ -2143,7 +2143,7 @@
             "see": 2, 
             "till": 6
         }, 
-        "High level Stress-disease": {
+        "High level stress-disease": {
             "abio": 3, 
             "dis": 2, 
             "none": 1, 
@@ -2287,7 +2287,7 @@
             "description": "Group1", 
             "factors": {
                 "Age": "24d", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "CS", 
@@ -2302,7 +2302,7 @@
             "description": "Group15", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -2317,7 +2317,7 @@
             "description": "Group105", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "abio", 
+                "High level stress-disease": "abio", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -2332,7 +2332,7 @@
             "description": "Group106", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "abio", 
+                "High level stress-disease": "abio", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -2347,7 +2347,7 @@
             "description": "Group107", 
             "factors": {
                 "Age": "2dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "CS", 
@@ -2362,7 +2362,7 @@
             "description": "Group108", 
             "factors": {
                 "Age": "14dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "CS", 
@@ -2377,7 +2377,7 @@
             "description": "Group109", 
             "factors": {
                 "Age": "30dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "CS", 
@@ -2392,7 +2392,7 @@
             "description": "Group110", 
             "factors": {
                 "Age": "see", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "CS", 
@@ -2407,7 +2407,7 @@
             "description": "Group111", 
             "factors": {
                 "Age": "till", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "CS", 
@@ -2422,7 +2422,7 @@
             "description": "Group112", 
             "factors": {
                 "Age": "2dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "le+sh", 
                 "High level variety": "CS", 
@@ -2437,7 +2437,7 @@
             "description": "Group113", 
             "factors": {
                 "Age": "see", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "see", 
                 "High level tissue": "roots", 
                 "High level variety": "CS", 
@@ -2452,7 +2452,7 @@
             "description": "Group114", 
             "factors": {
                 "Age": "3_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "CS", 
@@ -2467,7 +2467,7 @@
             "description": "Group16", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -2482,7 +2482,7 @@
             "description": "Group115", 
             "factors": {
                 "Age": "f_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "roots", 
                 "High level variety": "CS", 
@@ -2497,7 +2497,7 @@
             "description": "Group116", 
             "factors": {
                 "Age": "2_no", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "spike", 
                 "High level variety": "CS", 
@@ -2512,7 +2512,7 @@
             "description": "Group117", 
             "factors": {
                 "Age": "f_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "CS", 
@@ -2527,7 +2527,7 @@
             "description": "Group118", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "CS", 
@@ -2542,7 +2542,7 @@
             "description": "Group119", 
             "factors": {
                 "Age": "1_sp", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "CS", 
@@ -2557,7 +2557,7 @@
             "description": "Group120", 
             "factors": {
                 "Age": "2_no", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "CS", 
@@ -2572,7 +2572,7 @@
             "description": "Group121", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "le+sh", 
                 "High level variety": "CS", 
@@ -2587,7 +2587,7 @@
             "description": "Group122", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2602,7 +2602,7 @@
             "description": "Group123", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2617,7 +2617,7 @@
             "description": "Group124", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2632,7 +2632,7 @@
             "description": "Group17", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -2647,7 +2647,7 @@
             "description": "Group125", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2662,7 +2662,7 @@
             "description": "Group126", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2677,7 +2677,7 @@
             "description": "Group127", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2692,7 +2692,7 @@
             "description": "Group128", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2707,7 +2707,7 @@
             "description": "Group129", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2722,7 +2722,7 @@
             "description": "Group130", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2737,7 +2737,7 @@
             "description": "Group131", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2752,7 +2752,7 @@
             "description": "Group132", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2767,7 +2767,7 @@
             "description": "Group133", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2782,7 +2782,7 @@
             "description": "Group134", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2797,7 +2797,7 @@
             "description": "Group18", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -2812,7 +2812,7 @@
             "description": "Group135", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2827,7 +2827,7 @@
             "description": "Group136", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2842,7 +2842,7 @@
             "description": "Group137", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2857,7 +2857,7 @@
             "description": "Group138", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2872,7 +2872,7 @@
             "description": "Group139", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2887,7 +2887,7 @@
             "description": "Group140", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2902,7 +2902,7 @@
             "description": "Group141", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2917,7 +2917,7 @@
             "description": "Group142", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2932,7 +2932,7 @@
             "description": "Group143", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2947,7 +2947,7 @@
             "description": "Group144", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2962,7 +2962,7 @@
             "description": "Group19", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -2977,7 +2977,7 @@
             "description": "Group145", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -2992,7 +2992,7 @@
             "description": "Group146", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3007,7 +3007,7 @@
             "description": "Group147", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3022,7 +3022,7 @@
             "description": "Group148", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3037,7 +3037,7 @@
             "description": "Group149", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3052,7 +3052,7 @@
             "description": "Group150", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3067,7 +3067,7 @@
             "description": "Group151", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3082,7 +3082,7 @@
             "description": "Group152", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3097,7 +3097,7 @@
             "description": "Group153", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3112,7 +3112,7 @@
             "description": "Group154", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3127,7 +3127,7 @@
             "description": "Group20", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -3142,7 +3142,7 @@
             "description": "Group155", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3157,7 +3157,7 @@
             "description": "Group156", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3172,7 +3172,7 @@
             "description": "Group157", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3187,7 +3187,7 @@
             "description": "Group158", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3202,7 +3202,7 @@
             "description": "Group159", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3217,7 +3217,7 @@
             "description": "Group160", 
             "factors": {
                 "Age": "15dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3232,7 +3232,7 @@
             "description": "Group161", 
             "factors": {
                 "Age": "25dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3247,7 +3247,7 @@
             "description": "Group162", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3262,7 +3262,7 @@
             "description": "Group163", 
             "factors": {
                 "Age": "35dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3277,7 +3277,7 @@
             "description": "Group21", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -3292,7 +3292,7 @@
             "description": "Group22", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -3307,7 +3307,7 @@
             "description": "Group23", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -3322,7 +3322,7 @@
             "description": "Group24", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -3337,7 +3337,7 @@
             "description": "Group2", 
             "factors": {
                 "Age": "24d", 
-                "High level Stress-disease": "abio", 
+                "High level stress-disease": "abio", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "CS", 
@@ -3352,7 +3352,7 @@
             "description": "Group25", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -3367,7 +3367,7 @@
             "description": "Group26", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -3382,7 +3382,7 @@
             "description": "Group27", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -3397,7 +3397,7 @@
             "description": "Group28", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -3412,7 +3412,7 @@
             "description": "Group29", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -3427,7 +3427,7 @@
             "description": "Group30", 
             "factors": {
                 "Age": "10dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "CS", 
@@ -3442,7 +3442,7 @@
             "description": "Group31", 
             "factors": {
                 "Age": "20dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "CS", 
@@ -3457,7 +3457,7 @@
             "description": "Group32", 
             "factors": {
                 "Age": "20dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "CS", 
@@ -3472,7 +3472,7 @@
             "description": "Group33", 
             "factors": {
                 "Age": "30dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "CS", 
@@ -3487,7 +3487,7 @@
             "description": "Group34", 
             "factors": {
                 "Age": "30dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "CS", 
@@ -3502,7 +3502,7 @@
             "description": "Group3", 
             "factors": {
                 "Age": "24d", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "CS", 
@@ -3517,7 +3517,7 @@
             "description": "Group35", 
             "factors": {
                 "Age": "20dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "CS", 
@@ -3532,7 +3532,7 @@
             "description": "Group36", 
             "factors": {
                 "Age": "20dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "CS", 
@@ -3547,7 +3547,7 @@
             "description": "Group37", 
             "factors": {
                 "Age": "12dpa", 
-                "High level Stress-disease": "trans", 
+                "High level stress-disease": "trans", 
                 "High level age": "repr", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -3562,7 +3562,7 @@
             "description": "Group38", 
             "factors": {
                 "Age": "12dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -3577,7 +3577,7 @@
             "description": "Group39", 
             "factors": {
                 "Age": "6dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3592,7 +3592,7 @@
             "description": "Group40", 
             "factors": {
                 "Age": "6dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3607,7 +3607,7 @@
             "description": "Group41", 
             "factors": {
                 "Age": "9dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3622,7 +3622,7 @@
             "description": "Group42", 
             "factors": {
                 "Age": "9dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3637,7 +3637,7 @@
             "description": "Group43", 
             "factors": {
                 "Age": "14dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3652,7 +3652,7 @@
             "description": "Group44", 
             "factors": {
                 "Age": "14dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -3667,7 +3667,7 @@
             "description": "Group4", 
             "factors": {
                 "Age": "24d", 
-                "High level Stress-disease": "abio", 
+                "High level stress-disease": "abio", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "CS", 
@@ -3682,7 +3682,7 @@
             "description": "Group45", 
             "factors": {
                 "Age": "see", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -3697,7 +3697,7 @@
             "description": "Group46", 
             "factors": {
                 "Age": "14d", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -3712,7 +3712,7 @@
             "description": "Group47", 
             "factors": {
                 "Age": "14d", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -3727,7 +3727,7 @@
             "description": "Group48", 
             "factors": {
                 "Age": "14d", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -3742,7 +3742,7 @@
             "description": "Group49", 
             "factors": {
                 "Age": "14d", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -3757,7 +3757,7 @@
             "description": "Group50", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "CS", 
@@ -3772,7 +3772,7 @@
             "description": "Group51", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "CS", 
@@ -3787,7 +3787,7 @@
             "description": "Group52", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3802,7 +3802,7 @@
             "description": "Group53", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3817,7 +3817,7 @@
             "description": "Group54", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3832,7 +3832,7 @@
             "description": "Group10", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -3847,7 +3847,7 @@
             "description": "Group55", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3862,7 +3862,7 @@
             "description": "Group56", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3877,7 +3877,7 @@
             "description": "Group57", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3892,7 +3892,7 @@
             "description": "Group58", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3907,7 +3907,7 @@
             "description": "Group59", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3922,7 +3922,7 @@
             "description": "Group60", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3937,7 +3937,7 @@
             "description": "Group61", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3952,7 +3952,7 @@
             "description": "Group62", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3967,7 +3967,7 @@
             "description": "Group63", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "le+sh", 
                 "High level variety": "N_CS", 
@@ -3982,7 +3982,7 @@
             "description": "Group64", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -3997,7 +3997,7 @@
             "description": "Group11", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -4012,7 +4012,7 @@
             "description": "Group65", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -4027,7 +4027,7 @@
             "description": "Group66", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -4042,7 +4042,7 @@
             "description": "Group67", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -4057,7 +4057,7 @@
             "description": "Group68", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -4072,7 +4072,7 @@
             "description": "Group69", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -4087,7 +4087,7 @@
             "description": "Group70", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -4102,7 +4102,7 @@
             "description": "Group71", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -4117,7 +4117,7 @@
             "description": "Group72", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -4132,7 +4132,7 @@
             "description": "Group73", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -4147,7 +4147,7 @@
             "description": "Group74", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -4162,7 +4162,7 @@
             "description": "Group12", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -4177,7 +4177,7 @@
             "description": "Group75", 
             "factors": {
                 "Age": "5_lea", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "veg", 
                 "High level tissue": "roots", 
                 "High level variety": "N_CS", 
@@ -4192,7 +4192,7 @@
             "description": "Group76", 
             "factors": {
                 "Age": "4+dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -4207,7 +4207,7 @@
             "description": "Group77", 
             "factors": {
                 "Age": "4dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -4222,7 +4222,7 @@
             "description": "Group78", 
             "factors": {
                 "Age": "8dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -4237,7 +4237,7 @@
             "description": "Group79", 
             "factors": {
                 "Age": "12dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -4252,7 +4252,7 @@
             "description": "Group80", 
             "factors": {
                 "Age": "4dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -4267,7 +4267,7 @@
             "description": "Group81", 
             "factors": {
                 "Age": "8dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -4282,7 +4282,7 @@
             "description": "Group82", 
             "factors": {
                 "Age": "12dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -4297,7 +4297,7 @@
             "description": "Group83", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "CS", 
@@ -4312,7 +4312,7 @@
             "description": "Group84", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -4327,7 +4327,7 @@
             "description": "Group13", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -4342,7 +4342,7 @@
             "description": "Group85", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "CS", 
@@ -4357,7 +4357,7 @@
             "description": "Group86", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4372,7 +4372,7 @@
             "description": "Group87", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4387,7 +4387,7 @@
             "description": "Group88", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4402,7 +4402,7 @@
             "description": "Group89", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4417,7 +4417,7 @@
             "description": "Group90", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4432,7 +4432,7 @@
             "description": "Group91", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4447,7 +4447,7 @@
             "description": "Group92", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4462,7 +4462,7 @@
             "description": "Group93", 
             "factors": {
                 "Age": "11dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -4477,7 +4477,7 @@
             "description": "Group94", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -4492,7 +4492,7 @@
             "description": "Group14", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "dis", 
+                "High level stress-disease": "dis", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -4507,7 +4507,7 @@
             "description": "Group95", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4522,7 +4522,7 @@
             "description": "Group96", 
             "factors": {
                 "Age": "anth", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "spike", 
                 "High level variety": "other", 
@@ -4537,7 +4537,7 @@
             "description": "Group97", 
             "factors": {
                 "Age": "12dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -4552,7 +4552,7 @@
             "description": "Group98", 
             "factors": {
                 "Age": "12dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -4567,7 +4567,7 @@
             "description": "Group99", 
             "factors": {
                 "Age": "12dpa", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "repr", 
                 "High level tissue": "grain", 
                 "High level variety": "other", 
@@ -4582,7 +4582,7 @@
             "description": "Group100", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "none", 
+                "High level stress-disease": "none", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4597,7 +4597,7 @@
             "description": "Group101", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "abio", 
+                "High level stress-disease": "abio", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4612,7 +4612,7 @@
             "description": "Group102", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "abio", 
+                "High level stress-disease": "abio", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4627,7 +4627,7 @@
             "description": "Group103", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "abio", 
+                "High level stress-disease": "abio", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4642,7 +4642,7 @@
             "description": "Group104", 
             "factors": {
                 "Age": "7d", 
-                "High level Stress-disease": "abio", 
+                "High level stress-disease": "abio", 
                 "High level age": "see", 
                 "High level tissue": "le+sh", 
                 "High level variety": "other", 
@@ -4683,7 +4683,7 @@
             "see": "seedling stage", 
             "till": "tillering stage"
         }, 
-        "High level Stress-disease": {
+        "High level stress-disease": {
             "abio": "abiotic", 
             "dis": "disease", 
             "none": "none", 
@@ -4846,7 +4846,7 @@
             "see": true, 
             "till": true
         }, 
-        "High level Stress-disease": {
+        "High level stress-disease": {
             "abio": true, 
             "dis": true, 
             "none": true, 

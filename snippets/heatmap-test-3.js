@@ -2,10 +2,10 @@ biovisexpressionbar = require("bio-vis-expression-bar");
 
 
 var container_div="bar_expression_viewer";
-var pathname =  window.location.href;
+
 var eb =  new biovisexpressionbar.ExpressionBar({
 	target: container_div,
-	data: pathname + "/../data/3genes.json", 
+	data: window.location.href + "/../data/3genes.json", 
 	groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"], 
 	renderProperty: 'count', 
 	width: '1000',
