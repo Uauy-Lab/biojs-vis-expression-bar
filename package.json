@@ -52,13 +52,14 @@
     "jquery": "^3.2",
     "jquery-ui": "^1.10.5",
     "jquery-ui-browserify": "^1.11.0-pre-seelio",
+    "jquery-ui-dist": "^1.12.1",
     "science": "~1.9.3",
     "string.prototype.startswith": "0.2.0"
   },
   "devDependencies": {
     "browserify": "~14.5.0",
     "chai": "~4.1",
-    "gulp": "~3.9",
+    "gulp": "^3.9.1",
     "gulp-browserify": "^0.5.0",
     "gulp-gzip": "~1.4",
     "gulp-jshint": "^2.0",
