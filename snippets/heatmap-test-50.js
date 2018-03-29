@@ -15,3 +15,13 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	plot:'HeatMap'
 }	
 );
+
+// rescaling the bar chart after a 1.5 second delay of resizing the window ****************REMOVE THIS NOW!!!!!!!!!!!!!!!
+var resizeTimer;
+$(window).on('resize', function(e){      
+  clearTimeout(resizeTimer);  // Making sure that the reload doesn't happen if the window is resized within 1.5 seconds
+  resizeTimer = setTimeout(function(){
+  	console.log("We are resizing now and want to call resize Chart");
+    eb.resizeChart();
+  }, 1500);
+});
