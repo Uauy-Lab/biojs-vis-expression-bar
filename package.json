@@ -1,14 +1,9 @@
 {
   "name": "bio-vis-expression-bar",
   "description": "Simple barchart to show expression levels across experiments",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "homepage": "https://github.com/homonecloco/biojs-vis-expression-bar",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/homonecloco/biojs-vis-expression-bar/blob/master/LICENSE"
-    }
-  ],
+  "license":  "MIT",
   "author": {
     "name": "Ricardo H. Ramirez-Gonzalez",
     "email": "homo.nec.loco@gmail.com"
