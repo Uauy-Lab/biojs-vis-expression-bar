@@ -4,7 +4,8 @@ var biovisexpressionbar = require("bio-vis-expression-bar");
 //}
 
 var container_div="bar_expression_viewer";
-
+var parentWidth = $("#bar_expression_viewer").parent().width();
+var parentHeight = $(window).height();
 var eb =  new biovisexpressionbar.ExpressionBar({
 	target: container_div,
 	highlight: 'Traes_4AL_F9DCE24F4.1',
@@ -12,9 +13,9 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	renderProperty: 'tpm', 
 	fontFamily:'Palatino Linotype, Book Antiqua, Palatino, serif',
 	groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"], 
-	barHeight: 12,
-	width: window.innerWidth - 40,	
-	headerOffset:100	
+	barHeight: (parentHeight * 0.02),
+	width: parentWidth,	
+	headerOffset:180
 }	
 );
 
