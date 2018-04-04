@@ -13,11 +13,10 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	renderProperty: 'tpm', 
 	fontFamily:'Palatino Linotype, Book Antiqua, Palatino, serif',
 	groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"], 
-	barHeight: (parentHeight * 0.02),
+	barHeight: (parentHeight * 0.017),
 	width: parentWidth,	
 	headerOffset:180
-}	
-);
+});
 
 // rescaling the bar chart after a 1.5 second delay of resizing the window ****************REMOVE THIS NOW!!!!!!!!!!!!!!!
 var resizeTimer;
