@@ -1,14 +1,13 @@
 {
   "name": "bio-vis-expression-bar",
   "description": "Simple barchart to show expression levels across experiments",
+<<<<<<< HEAD
   "version": "0.7.1",
+=======
+  "version": "0.7.4",
+>>>>>>> 040e55d6a21c66c5590d6a42c4d1dc7123499e6a
   "homepage": "https://github.com/homonecloco/biojs-vis-expression-bar",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/homonecloco/biojs-vis-expression-bar/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "author": {
     "name": "Ricardo H. Ramirez-Gonzalez",
     "email": "homo.nec.loco@gmail.com"
@@ -52,22 +51,24 @@
     "jquery": "^3.2",
     "jquery-ui": "^1.10.5",
     "jquery-ui-browserify": "^1.11.0-pre-seelio",
+    "jquery-ui-dist": "^1.12.1",
     "science": "~1.9.3",
     "string.prototype.startswith": "0.2.0"
   },
   "devDependencies": {
     "browserify": "~14.5.0",
     "chai": "~4.1",
-    "gulp": "~3.9",
+    "gulp": "^3.9.1",
     "gulp-browserify": "^0.5.0",
     "gulp-gzip": "~1.4",
-    "gulp-jshint": "^2.0",
+    "gulp-jshint": "^2.1.0",
     "gulp-mocha": "^4.3",
     "gulp-mocha-phantomjs": "^0.12",
     "gulp-rename": "^1.2.0",
     "gulp-rimraf": "^0.2.0",
     "gulp-uglify": "^3.0",
     "gulp-watch": "^4.3",
+    "jshint": "^2.9.5",
     "mkdirp": "^0.5.0",
     "mocha": "~4.0",
     "sniper": "^0.2.16",
