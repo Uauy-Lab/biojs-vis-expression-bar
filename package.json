@@ -1,11 +1,7 @@
 {
   "name": "bio-vis-expression-bar",
   "description": "Simple barchart to show expression levels across experiments",
-<<<<<<< HEAD
-  "version": "0.7.1",
-=======
-  "version": "0.7.4",
->>>>>>> 040e55d6a21c66c5590d6a42c4d1dc7123499e6a
+  "version": "0.7.5",
   "homepage": "https://github.com/homonecloco/biojs-vis-expression-bar",
   "license": "MIT",
   "author": {
