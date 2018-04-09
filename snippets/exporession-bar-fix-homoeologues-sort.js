@@ -15,7 +15,7 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"], 
 	barHeight: (parentHeight * 0.017),
 	width: parentWidth,	
-	headerOffset:180
+	headerOffset:0
 });
 
 // rescaling the bar chart after a 1.5 second delay of resizing the window ****************REMOVE THIS NOW!!!!!!!!!!!!!!!
