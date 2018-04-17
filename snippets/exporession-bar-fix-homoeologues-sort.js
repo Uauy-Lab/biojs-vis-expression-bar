@@ -18,12 +18,15 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	headerOffset:0
 });
 
+
+
 // rescaling the bar chart after a 1.5 second delay of resizing the window ****************REMOVE THIS NOW!!!!!!!!!!!!!!!
 var resizeTimer;
 $(window).on('resize', function(e){      
   clearTimeout(resizeTimer);  // Making sure that the reload doesn't happen if the window is resized within 1.5 seconds
   resizeTimer = setTimeout(function(){
     eb.resizeChart();
+    eb.createInitialSessionStorage();
   }, 1500);
 });
 
