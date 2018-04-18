@@ -26,7 +26,7 @@ $(window).on('resize', function(e){
   clearTimeout(resizeTimer);  // Making sure that the reload doesn't happen if the window is resized within 1.5 seconds
   resizeTimer = setTimeout(function(){
     eb.resizeChart();
-    eb.createInitialSessionStorage();
+    // eb.createInitialSessionStorage();
   }, 1500);
 });
 
