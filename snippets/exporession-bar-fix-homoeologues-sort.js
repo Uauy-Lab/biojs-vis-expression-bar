@@ -13,18 +13,19 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	renderProperty: 'tpm', 
 	fontFamily:'Palatino Linotype, Book Antiqua, Palatino, serif',
 	groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"], 
-	barHeight: (parentHeight * 0.02),
+	barHeight: (parentHeight * 0.017),
 	width: parentWidth,	
-	headerOffset:180
-}	
-);
+	headerOffset:0
+});
+
+
 
 // rescaling the bar chart after a 1.5 second delay of resizing the window ****************REMOVE THIS NOW!!!!!!!!!!!!!!!
 var resizeTimer;
 $(window).on('resize', function(e){      
   clearTimeout(resizeTimer);  // Making sure that the reload doesn't happen if the window is resized within 1.5 seconds
   resizeTimer = setTimeout(function(){
-    eb.resizeChart();
+    eb.resizeChart();    
   }, 1500);
 });
 

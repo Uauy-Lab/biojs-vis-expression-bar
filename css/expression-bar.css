@@ -17,3 +17,6 @@
     user-select: none;
 }
 
+.ui-slider-handle{
+  cursor: pointer !important;
+}
