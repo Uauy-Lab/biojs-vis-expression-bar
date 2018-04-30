@@ -10,7 +10,7 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"], 
 	renderProperty: 'count', 
 	width: parentWidth,
-	fontFamily:'Helvetica Neue, Helvetica, Arial, sans-serif', 	
+	fontFamily:'Arial', 	
 	headerOffset: 0,
 	plot:'HeatMap'
 }	
