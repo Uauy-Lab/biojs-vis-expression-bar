@@ -11,7 +11,7 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	highlight: 'Traes_4AL_F9DCE24F4.1',
 	data: window.location.href + "/../data/dataTest.json", 	
 	renderProperty: 'tpm', 
-	fontFamily:'Palatino Linotype, Book Antiqua, Palatino, serif',
+	fontFamily:'Helvetica Neue, Helvetica, Arial, sans-serif',
 	groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"], 
 	barHeight: (parentHeight * 0.017),
 	width: parentWidth,	
