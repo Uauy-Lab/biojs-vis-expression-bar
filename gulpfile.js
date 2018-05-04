@@ -83,7 +83,7 @@ gulp.task('build-browser',['init'], function() {
 gulp.task('build-browser-min',['init'], function() {
   return gulp.src(browserFile)
   .pipe(browserify({}))
-  .pipe(uglify())
+  //.pipe(uglify())
   .pipe(rename(outputFileMinSt))
   .pipe(gulp.dest(buildDir));
 });
