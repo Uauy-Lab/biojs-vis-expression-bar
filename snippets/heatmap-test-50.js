@@ -6,12 +6,11 @@ var parentWidth = $("#bar_expression_viewer").parent().width();
 var parentHeight = $(window).height();
 var eb =  new biovisexpressionbar.ExpressionBar({
 	target: container_div,
-	data: window.location.href + "/../data/50genes.json", 
+	data: window.location.href + "/../data/new50genes.json", 
 	groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"], 
 	renderProperty: 'count', 
 	width: parentWidth,
-	fontFamily:'Palatino Linotype, Book Antiqua, Palatino, serif', 
-	barHeight: (parentHeight * 0.02),
+	fontFamily:'Arial', 	
 	headerOffset: 0,
 	plot:'HeatMap'
 }	

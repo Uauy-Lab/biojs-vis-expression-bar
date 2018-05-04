@@ -12,9 +12,7 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	data: window.location.href + "/../data/dataTest.json", 	
 	renderProperty: 'tpm', 
 	fontFamily:'Helvetica Neue, Helvetica, Arial, sans-serif',
-	groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"], 
-	barHeight: (parentHeight * 0.017),
-	width: parentWidth,	
+	groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"], 	
 	headerOffset:0
 });
 
