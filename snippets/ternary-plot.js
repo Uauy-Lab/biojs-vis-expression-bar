@@ -45,7 +45,8 @@ function ternaryPlot(selector, userOpt ) {
 		axis_labels:['A','B','C'],
 		axis_ticks:[0,20,40,60,80,100],
 		tickLabelMargin:10,
-		axisLabelMargin:40 }
+		axisLabelMargin:40 
+	}
 
 	// Getting user options
 	for(var o in userOpt){
@@ -57,7 +58,7 @@ function ternaryPlot(selector, userOpt ) {
 						.attr("width", opt.width)
                         .attr("height", opt.height);
 
-    // Add the class the group
+    // Add the group 
 	var axes = svg.append('g').attr('class','axes');
 
 	// Calculating the height and width of the Plot
@@ -71,12 +72,14 @@ function ternaryPlot(selector, userOpt ) {
 		[(w/2) + opt.margin.left, opt.margin.top] ] //c
 
 	//axis names
+	// Gets each value in the axis-labels and appends the following to them (d is the value & i is index)	
 	axes.selectAll('.axis-title')
 		.data(opt.axis_labels)
 		.enter()
 			.append('g')
 				.attr('class', 'axis-title')
 				.attr('transform',function(d,i){
+					console.log(`This is d: ${d}, i: ${i}`);	// Shall be removed later
 					return 'translate('+corners[i][0]+','+corners[i][1]+')';
 				})
 				.append('text')
@@ -124,6 +127,7 @@ function ternaryPlot(selector, userOpt ) {
 	}
 
 	opt.axis_ticks.forEach(function(v) {	
+		console.log(`This is V: ${v}`);
 		var coord1 = coord( [v, 0, 100-v] );
 		var coord2 = coord( [v, 100-v, 0] );
 		var coord3 = coord( [0, 100-v, v] );
