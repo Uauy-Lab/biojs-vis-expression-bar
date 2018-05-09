@@ -126,6 +126,7 @@ function ternaryPlot(selector, userOpt ) {
 		});
 	}
 
+	// This will add the ticks and lines (IMPORTANT)  
 	opt.axis_ticks.forEach(function(v) {	
 		console.log(`This is V: ${v}`);
 		var coord1 = coord( [v, 0, 100-v] );
@@ -133,20 +134,21 @@ function ternaryPlot(selector, userOpt ) {
 		var coord3 = coord( [0, 100-v, v] );
 		var coord4 = coord( [100-v, 0, v] );
 
+		// Add the lines (This is where everything breaks)
 		axes.append("line")
 			.attr( lineAttributes(coord1, coord2) )
-			.classed('a-axis tick', true);	
+			// .classed('a-axis tick', true);	
 
 		axes.append("line")
 			.attr( lineAttributes(coord2, coord3) )
-			.classed('b-axis tick', true);	
+			// .classed('b-axis tick', true);	
 
 		axes.append("line")
 			.attr( lineAttributes(coord3, coord4) )
-			.classed('c-axis tick', true);	
+			// .classed('c-axis tick', true);	
 
 
-		//tick labels
+		// tick labels
 		axes.append('g')
 			.attr('transform',function(d){
 				return 'translate(' + coord1[0] + ',' + coord1[1] + ')'
@@ -177,7 +179,6 @@ function ternaryPlot(selector, userOpt ) {
 				.text( function (d) { return v; } )
 				.attr('x',opt.tickLabelMargin)
 				.classed('c-axis tick-text', true);
-
 	})
 
 	function lineAttributes(p1, p2){
@@ -224,40 +225,9 @@ function ternaryPlot(selector, userOpt ) {
 	}
 
 	plot.getPosition = coord;
-	plot.getTripple = function(x, y){
-		//TODO, get percentages for a give x, y
-	}
 
 	return plot;
 }
-
-//ACTIVATE!
-// var plot_opts = {
-// 	side: 400,
-// 	margin: {top:70,left:150,bottom:150,right:150},
-// 	axis_labels:['Journalist','Developer','Designer'],
-// 	axis_ticks:d3.range(0, 101, 20),
-// 	minor_axis_ticks:d3.range(0, 101, 5)
-// }
-
-var tp = ternaryPlot( '#plot');
-
-/*.data([
-		{journalist:75,developer:25,designer:0,label:'point 1'},
-		{journalist:70,developer:10,designer:20,label:'point 2'},
-		{journalist:75,developer:20,designer:5,label:'point 3'},
-
-
-		{journalist:5,developer:60,designer:35,label:'point 4'},
-		{journalist:10,developer:80,designer:10,label:'point 5'},
-		{journalist:10,developer:90,designer:0,label:'point 6'},
-		{journalist:20,developer:70,designer:10,label:'point 7'},
-
-		{journalist:10,developer:20,designer:70,label:'point 8'},
-		{journalist:15,developer:5,designer:80,label:'point 9'},
-		{journalist:10,developer:10,designer:80,label:'point 10'},
-		{journalist:20,developer:10,designer:70,label:'point 11'},
-	], function(d){ return [d.journalist, d.developer, d.designer]}, 'label');*/
 
 function next(){
 	var d = []
@@ -271,7 +241,10 @@ function next(){
 	}
 	tp.data(d, function(d){ return [d.journalist, d.developer, d.designer]}, 'label');
 }
-next();
 
-d3.select('#nextbutton').on('click', function(e){
-	next(); d3.event.preventDefault(); });
+// d3.select('#nextbutton').on('click', function(e){
+// 	next(); d3.event.preventDefault(); });
+
+var tp = ternaryPlot( '#plot');
+
+// next();
