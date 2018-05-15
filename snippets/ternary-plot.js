@@ -15,6 +15,14 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 	plot:'Bar'
 });
 
+// Key 'T' for showing the ternary plot as shortcut
+$(document).keypress(function(event){
+  var keyPressed = (String.fromCharCode(event.which)); 
+  if(keyPressed === 't'){
+  	$(`#bar_expression_viewer_showTernaryPlot`).click();
+  }
+});
+
 
 var resizeTimer;
 $(window).on('resize', function(e){
