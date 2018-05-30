@@ -1,4 +1,9 @@
-{
+{    
+  "expression_bias_value":"tpm",
+  "expression_bias":{
+      "Azhurnaya":      [0.1, 0.2, 0.3,0.4, 0.5, 0.6,0.7,0.9],
+      "Chinese Spring": [0.1,0.15,0.20,0.4,0.45,0.50,0.7,0.9]
+  },
   "defaultFactorOrder": [
     "study",
     "High level tissue",
