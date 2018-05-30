@@ -22,8 +22,7 @@ var eb =  new biovisexpressionbar.ExpressionBar({
 var resizeTimer;
 $(window).on('resize', function(e){      
   clearTimeout(resizeTimer);  // Making sure that the reload doesn't happen if the window is resized within 1.5 seconds
-  resizeTimer = setTimeout(function(){
-  	console.log("We are resizing now and want to call resize Chart");
+  resizeTimer = setTimeout(function(){  	
     eb.resizeChart();
   }, 1500);
 });
