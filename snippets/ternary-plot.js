@@ -35,4 +35,6 @@ function runThese(){
 						eb.resizeChart();
 					}, 1500);
 				});
+
+
 }
