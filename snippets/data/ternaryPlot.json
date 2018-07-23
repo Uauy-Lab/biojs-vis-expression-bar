@@ -1,9 +1,4 @@
-{    
-  "expression_bias_value":"tpm",
-  "expression_bias":{
-      "Azhurnaya":      [0.1, 0.2, 0.3,0.4, 0.5, 0.6,0.7,0.9],
-      "Chinese Spring": [0.1,0.15,0.20,0.4,0.45,0.50,0.7,0.9]
-  },
+{
   "defaultFactorOrder": [
     "study",
     "High level tissue",
@@ -3939,6 +3934,29 @@
       "name": "Sample_99A"
     }
   },
+  "expression_bias": {
+    "Azhurnaya": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.9
+    ],
+    "Chinese Spring": [
+      0.1,
+      0.15,
+      0.20,
+      0.4,
+      0.45,
+      0.50,
+      0.7,
+      0.9
+    ]
+  },
+  "expression_bias_value": "tpm",
   "factorOrder": {
     "Age": {
       "10dpa": 32,
@@ -21625,6 +21643,11 @@
     "A",
     "D",
     "B"
+  ],
+  "tooltip_order": [
+    "A",
+    "B",
+    "D"
   ],
   "values": {
     "TRAES3BF066900080CFD_t1": {
