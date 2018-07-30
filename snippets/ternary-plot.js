@@ -1,7 +1,7 @@
 var biovisexpressionbar = require("bio-vis-expression-bar");
 
 $(document).ready(function(){
-				runThese();
+	runThese();
 })
 
 function runThese(){
