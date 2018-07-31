@@ -35,4 +35,6 @@ function runThese(){
 			eb.resizeChart();
 		}, 1500);
 	});
+
+	$('.wrapper').css('height', $(window).height());
 }
