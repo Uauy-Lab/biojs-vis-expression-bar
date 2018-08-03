@@ -5,8 +5,7 @@ $(document).ready(function(){
 })
 
 function runThese(){
-
-	console.log('nav height: ' + $('nav').height());	
+	
 	var navHeight = $('nav').height() + 70;
 	var avaHeight = $(window).height() - navHeight;
 
@@ -36,8 +35,11 @@ function runThese(){
 	var resizeTimer;
 	$(window).on('resize', function(e){
 		clearTimeout(resizeTimer);  // Making sure that the reload doesn't happen if the window is resized within 1.5 seconds
-		resizeTimer = setTimeout(function(){
-			eb.resizeChart();
+		resizeTimer = setTimeout(function(){			
+			var navHeight = $('nav').height() + 70;
+			var avaHeight = $(window).height() - navHeight;
+
+			eb.resizeChart(avaHeight);
 		}, 1500);
 	});
 
