@@ -5,6 +5,11 @@ $(document).ready(function(){
 })
 
 function runThese(){
+
+	console.log('nav height: ' + $('nav').height());	
+	var navHeight = $('nav').height() + 70;
+	var avaHeight = $(window).height() - navHeight;
+
 	var container_div="bar_expression_viewer";
 	var parentWidth = $("#bar_expression_viewer").parent().width();
 	var parentHeight = $(window).height();
@@ -16,6 +21,7 @@ function runThese(){
 		fontFamily:'Helvetica Neue, Helvetica, Arial, sans-serif',
 		groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"],
 		headerOffset:0,
+		height: avaHeight,
 		plot:'Bar'
 	});
 
@@ -26,7 +32,6 @@ function runThese(){
 			$(`#bar_expression_viewer_showTernaryPlot`).click();
 		}
 	});
-
 
 	var resizeTimer;
 	$(window).on('resize', function(e){
