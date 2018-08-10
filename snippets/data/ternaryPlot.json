@@ -3956,6 +3956,32 @@
       0.9
     ]
   },
+  "expression_bias_colors" : {
+    "Azhurnaya": [
+      "#377eb8", 
+      "#bdbdbd", 
+      "#bdbdbd",
+      "#bdbdbd",
+      "#bdbdbd",
+      "#bdbdbd",
+      "#bdbdbd",
+      "#bdbdbd",
+      "#bdbdbd", 
+      "#e41a1c"
+    ],
+   "Chinese Spring": [
+      "#377eb8", 
+      "#bdbdbd", 
+      "#bdbdbd",
+      "#bdbdbd",
+      "#bdbdbd",
+      "#bdbdbd",
+      "#bdbdbd",
+      "#bdbdbd",
+      "#bdbdbd", 
+      "#e41a1c"
+    ]
+},
   "expression_bias_value": "tpm",
   "factorOrder": {
     "Age": {
