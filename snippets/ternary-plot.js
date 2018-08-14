@@ -14,12 +14,11 @@ function runThese(){
 	var parentWidth = $("#bar_expression_viewer").parent().width();
 	var eb =  new biovisexpressionbar.ExpressionBar({
 		target: container_div,
-		highlight: '',
+		highlight: 'Traes_4AL_F9DCE24F4.1',
 		data: window.location.href + "/../data/ternaryPlot.json",
 		renderProperty: 'tpm',
 		fontFamily:'Helvetica Neue, Helvetica, Arial, sans-serif',
 		groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"],
-		headerOffset:0,
 		height: avaHeight,
 		plot:'Bar'
 	});
