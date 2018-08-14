@@ -1,26 +1,38 @@
 # expression-bar
 
 [![Build Status](https://secure.travis-ci.org/homonecloco/expression-bar.png?branch=master)](http://travis-ci.org/homonecloco/expression-bar)
-[![NPM version](https://badge-me.herokuapp.com/api/npm/expression-bar.png)](http://badges.enytc.com/for/npm/expression-bar) 
+[![NPM version](https://badge-me.herokuapp.com/api/npm/expression-bar.png)](http://badges.enytc.com/for/npm/expression-bar)
 
 > Simple barchart to show expression levels across experiments
 
 ## Getting Started
-Install the module with: `npm install bio-vis-expression-bar`
+Install the module with: `npm install bio-vis-expression-bar` or `yarn add bio-vis-expression-bar`
 
+#### HTML
+```html
+<div class="wrapper" >
+
+  <div  id="bar_expression_viewer"></div>    
+
+</div>
+
+```
+
+#### Javascript
 ```javascript
 
 biovisexpressionbar = require("bio-vis-expression-bar");
 
-var expressionbar = require('biovisexpressionbar');
+var container_div="bar_expression_viewer";
+var parentWidth = $("#bar_expression_viewer").parent().width();
 var eb =  new biovisexpressionbar.ExpressionBar({
 	target: container_div,
 	highlight: 'Traes_4AL_F9DCE24F4.1',
-	data: "data/realTestHom.js", 
-	groupBy: ["High level Stress-disease", "High level age","High level tissue","High level variety"], 
-	renderProperty: 'count', 
+	data: "data/realTestHom.js",
+	groupBy: ["High level Stress-disease", "High level age","High level tissue","High level variety"],
+	renderProperty: 'count',
 	width: '1000',
-	fontFamily:'Palatino Linotype, Book Antiqua, Palatino, serif', 
+	fontFamily:'Helvetica',
 	barHeight: 12
 }
 ```
@@ -36,7 +48,7 @@ Please submit all issues and pull requests to the [homonecloco/biojs-vis-express
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/homonecloco/biojs-vis-expression-bar/issues).
 
-## License 
+## License
 
 The MIT License
 
@@ -62,5 +74,3 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
-
-
