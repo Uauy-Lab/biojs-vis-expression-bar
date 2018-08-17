@@ -68,11 +68,6 @@ Go to ```localhost:9090``` in your browser<br>
 Navigate to ```snippets/ternary-plot```
 
 
-
-## Documentation
-
-
-
 ## Contributing
 
 Please submit all issues and pull requests to the [homonecloco/biojs-vis-expression-bar](https://github.com/homonecloco/biojs-vis-expression-bar) repository!
