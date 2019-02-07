@@ -1,0 +1,332 @@
+{
+    "gene": "TR126|c1_g1_i1",
+    "tern_order": ["A", "D", "B"],
+    "tooltip_order": ["A", "B", "D"],
+    "expression_bias": {},
+    "expression_bias_colors": {
+        "Azhurnaya": ["#377eb8", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#e41a1c"],
+        "Chinese Spring": ["#377eb8", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#e41a1c"]
+    },
+    "tern": {},
+    "values": {
+        "TR126|c1_g1_i1": {
+            "count": {
+                "8": {
+                    "experiment": "8",
+                    "value": 0.0
+                },
+                "9": {
+                    "experiment": "9",
+                    "value": 4.0
+                },
+                "7": {
+                    "experiment": "7",
+                    "value": 3.0
+                },
+                "6": {
+                    "experiment": "6",
+                    "value": 0.0
+                },
+                "5": {
+                    "experiment": "5",
+                    "value": 0.0
+                },
+                "4": {
+                    "experiment": "4",
+                    "value": 1.0
+                },
+                "3": {
+                    "experiment": "3",
+                    "value": 0.0
+                }
+            },
+            "tpm": {
+                "8": {
+                    "experiment": "8",
+                    "value": 0.0
+                },
+                "9": {
+                    "experiment": "9",
+                    "value": 0.492347
+                },
+                "7": {
+                    "experiment": "7",
+                    "value": 0.439464
+                },
+                "6": {
+                    "experiment": "6",
+                    "value": 0.0
+                },
+                "5": {
+                    "experiment": "5",
+                    "value": 0.0
+                },
+                "4": {
+                    "experiment": "4",
+                    "value": 0.150839
+                },
+                "3": {
+                    "experiment": "3",
+                    "value": 0.0
+                }
+            }
+        }
+    },
+    "factorOrder": {
+        "study": {
+            "Blackberry_ripe": null,
+            "Raspberry_ripe": null
+        },
+        "Fruit ripening stage": {
+            "green": 1,
+            "immature": 2,
+            "ripe": 3
+        }
+    },
+    "longFactorName": {
+        "study": {
+            "Blackberry_ripe": "Blackberry ripe stages",
+            "Raspberry_ripe": "Raspberry ripe stages"
+        },
+        "Fruit ripening stage": {
+            "green": "green",
+            "immature": "immature",
+            "ripe": "ripe"
+        }
+    },
+    "selectedFactors": {
+        "study": {
+            "Blackberry_ripe": true,
+            "Raspberry_ripe": true
+        },
+        "Fruit ripening stage": {
+            "green": true,
+            "immature": true,
+            "ripe": true
+        }
+    },
+    "defaultFactorSelection": {
+        "Fruit ripening stage": true
+    },
+    "defaultFactorOrder": ["Fruit ripening stage"],
+    "experiments": {
+        "1": {
+            "name": "Sample_1618_LIB19133_LDI16504",
+            "group": "1"
+        },
+        "2": {
+            "name": "Sample_1618_LIB19134_LDI16505",
+            "group": "2"
+        },
+        "3": {
+            "name": "Sample_1618_LIB19135_LDI16506",
+            "group": "3"
+        },
+        "4": {
+            "name": "Sample_1618_LIB19136_LDI16507",
+            "group": "4"
+        },
+        "5": {
+            "name": "Sample_1618_LIB19137_LDI16508",
+            "group": "5"
+        },
+        "6": {
+            "name": "Sample_1618_LIB19138_LDI16509",
+            "group": "6"
+        },
+        "7": {
+            "name": "Sample_1618_LIB19139_LDI16510",
+            "group": "7"
+        },
+        "8": {
+            "name": "Sample_1618_LIB19140_LDI16511",
+            "group": "8"
+        },
+        "9": {
+            "name": "Sample_1618_LIB19141_LDI16512",
+            "group": "9"
+        },
+        "10": {
+            "name": "Sample_1636_LIB19419_LDI16762",
+            "group": "10"
+        },
+        "11": {
+            "name": "Sample_1636_LIB19420_LDI16763",
+            "group": "11"
+        },
+        "12": {
+            "name": "Sample_1636_LIB19421_LDI16764",
+            "group": "12"
+        },
+        "13": {
+            "name": "Sample_1636_LIB19422_LDI16765",
+            "group": "13"
+        },
+        "14": {
+            "name": "Sample_1636_LIB19423_LDI16766",
+            "group": "14"
+        },
+        "15": {
+            "name": "Sample_1636_LIB19424_LDI16767",
+            "group": "15"
+        },
+        "16": {
+            "name": "Sample_1636_LIB19425_LDI16768",
+            "group": "16"
+        },
+        "17": {
+            "name": "Sample_1636_LIB19426_LDI16769",
+            "group": "17"
+        },
+        "18": {
+            "name": "Sample_1636_LIB19427_LDI16770",
+            "group": "18"
+        }
+    },
+    "groups": {
+        "1": {
+            "name": "Sample_1618_LIB19133_LDI16504",
+            "description": "Sample_1618_LIB19133_LDI16504",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Blackberry_ripe"
+            }
+        },
+        "2": {
+            "name": "Sample_1618_LIB19134_LDI16505",
+            "description": "Sample_1618_LIB19134_LDI16505",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Blackberry_ripe"
+            }
+        },
+        "3": {
+            "name": "Sample_1618_LIB19135_LDI16506",
+            "description": "Sample_1618_LIB19135_LDI16506",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Blackberry_ripe"
+            }
+        },
+        "4": {
+            "name": "Sample_1618_LIB19136_LDI16507",
+            "description": "Sample_1618_LIB19136_LDI16507",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Blackberry_ripe"
+            }
+        },
+        "5": {
+            "name": "Sample_1618_LIB19137_LDI16508",
+            "description": "Sample_1618_LIB19137_LDI16508",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Blackberry_ripe"
+            }
+        },
+        "6": {
+            "name": "Sample_1618_LIB19138_LDI16509",
+            "description": "Sample_1618_LIB19138_LDI16509",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Blackberry_ripe"
+            }
+        },
+        "7": {
+            "name": "Sample_1618_LIB19139_LDI16510",
+            "description": "Sample_1618_LIB19139_LDI16510",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Blackberry_ripe"
+            }
+        },
+        "8": {
+            "name": "Sample_1618_LIB19140_LDI16511",
+            "description": "Sample_1618_LIB19140_LDI16511",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Blackberry_ripe"
+            }
+        },
+        "9": {
+            "name": "Sample_1618_LIB19141_LDI16512",
+            "description": "Sample_1618_LIB19141_LDI16512",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Blackberry_ripe"
+            }
+        },
+        "10": {
+            "name": "Sample_1636_LIB19419_LDI16762",
+            "description": "Sample_1636_LIB19419_LDI16762",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Raspberry_ripe"
+            }
+        },
+        "11": {
+            "name": "Sample_1636_LIB19420_LDI16763",
+            "description": "Sample_1636_LIB19420_LDI16763",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Raspberry_ripe"
+            }
+        },
+        "12": {
+            "name": "Sample_1636_LIB19421_LDI16764",
+            "description": "Sample_1636_LIB19421_LDI16764",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Raspberry_ripe"
+            }
+        },
+        "13": {
+            "name": "Sample_1636_LIB19422_LDI16765",
+            "description": "Sample_1636_LIB19422_LDI16765",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Raspberry_ripe"
+            }
+        },
+        "14": {
+            "name": "Sample_1636_LIB19423_LDI16766",
+            "description": "Sample_1636_LIB19423_LDI16766",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Raspberry_ripe"
+            }
+        },
+        "15": {
+            "name": "Sample_1636_LIB19424_LDI16767",
+            "description": "Sample_1636_LIB19424_LDI16767",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Raspberry_ripe"
+            }
+        },
+        "16": {
+            "name": "Sample_1636_LIB19425_LDI16768",
+            "description": "Sample_1636_LIB19425_LDI16768",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Raspberry_ripe"
+            }
+        },
+        "17": {
+            "name": "Sample_1636_LIB19426_LDI16769",
+            "description": "Sample_1636_LIB19426_LDI16769",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Raspberry_ripe"
+            }
+        },
+        "18": {
+            "name": "Sample_1636_LIB19427_LDI16770",
+            "description": "Sample_1636_LIB19427_LDI16770",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Raspberry_ripe"
+            }
+        }
+    }
+}
