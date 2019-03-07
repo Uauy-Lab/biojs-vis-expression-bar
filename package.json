@@ -43,7 +43,7 @@
   "dependencies": {
     "biojs-events": "0.0.4",
     "colorbrewer": "1.1",
-    "d3": "^4",
+    "d3": "4",
     "jquery": "^3.2",
     "jquery-ui": "^1.10.5",
     "jquery-ui-browserify": "^1.11.0-pre-seelio",

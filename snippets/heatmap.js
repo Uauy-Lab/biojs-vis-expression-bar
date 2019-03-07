@@ -14,13 +14,12 @@ function runThese(){
 	var parentWidth = $("#bar_expression_viewer").parent().width();
 	var eb =  new biovisexpressionbar.ExpressionBar({
 		target: container_div,
-		highlight: 'Traes_4AL_F9DCE24F4.1',
-		data: window.location.href + "/../data/test_data.json",
+		data: window.location.href + "/../data/heatmapexmp.json",
 		renderProperty: 'tpm',
 		fontFamily:'Helvetica Neue, Helvetica, Arial, sans-serif',
-		groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"],
+		groupBy: ["Fruit ripening stage"],
 		height: avaHeight,
-		plot:'Bar'
+		plot:'HeatMap'
 	});
 
 	// Key 'T' for showing the ternary plot as shortcut
