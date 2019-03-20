@@ -17,6 +17,7 @@ function runThese(){
 		highlight: 'Traes_4AL_F9DCE24F4.1',
 		data: window.location.href + "/../data/test_data.json",
 		renderProperty: 'tpm',
+		defaultLog2State: true,
 		fontFamily:'Helvetica Neue, Helvetica, Arial, sans-serif',
 		groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"],
 		height: avaHeight,
