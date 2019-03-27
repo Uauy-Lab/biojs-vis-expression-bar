@@ -21,7 +21,8 @@ function runThese(){
 		fontFamily:'Helvetica Neue, Helvetica, Arial, sans-serif',
 		groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"],
 		height: avaHeight,
-		plot:'Bar'
+		plot:'Bar',
+		tpmThreshold: 1
 	});
 
 	// Key 'T' for showing the ternary plot as shortcut
