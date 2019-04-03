@@ -1,6 +1,6 @@
 # expression-bar
 
-[![Build Status](https://secure.travis-ci.org/homonecloco/expression-bar.png?branch=master)](http://travis-ci.org/Bijan-Ghasemi-Afshar/expression-bar)
+[![Build Status](https://secure.travis-ci.org/homonecloco/expression-bar.png?branch=master)](http://travis-ci.org/homonecloco/expression-bar)
 [![NPM version](https://badge-me.herokuapp.com/api/npm/expression-bar.png)](http://badges.enytc.com/for/npm/expression-bar)
 
 > Simple barchart to show expression levels across experiments
