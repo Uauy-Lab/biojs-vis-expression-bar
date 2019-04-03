@@ -1,0 +1,2080 @@
+{
+    "values": {
+        "TR817|c0_g1_i2": {
+            "count": {
+                "24": {
+                    "experiment": "24",
+                    "value": 2.0
+                },
+                "25": {
+                    "experiment": "25",
+                    "value": 1.0
+                },
+                "10": {
+                    "experiment": "10",
+                    "value": 290.038
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 274.949
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 194.491
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 25.0442
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 25.5322
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 21.8735
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 9.04353
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 0.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 12.3576
+                }
+            },
+            "tpm": {
+                "24": {
+                    "experiment": "24",
+                    "value": 0.558646
+                },
+                "25": {
+                    "experiment": "25",
+                    "value": 0.342224
+                },
+                "10": {
+                    "experiment": "10",
+                    "value": 6.29253
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 4.86745
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 4.107
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 0.480074
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 0.585908
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 0.637296
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 0.319685
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 0.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 0.271775
+                }
+            }
+        },
+        "TR75558|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 23.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 24.0
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 26.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 21.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 26.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 64.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 17.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 15.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 16.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 0.818138
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 0.687011
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 0.898331
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 0.65783
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 0.974736
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 3.1013
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 0.979996
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 0.612255
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 0.576638
+                }
+            }
+        },
+        "TR16747|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 448.719
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 632.256
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 403.792
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 221.26
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 103.883
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 100.308
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 39.1445
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 14.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 44.4852
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 7.24993
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 8.38224
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 6.35518
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 3.16265
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 1.77779
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 2.16418
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 1.03267
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 0.261236
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 0.728702
+                }
+            }
+        },
+        "TR75681|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 6025.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 6000.0
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 5587.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 6852.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 4632.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 4464.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 3017.95
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 2877.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 4642.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 44.5966
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 36.7681
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 40.3365
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 44.9604
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 36.3956
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 43.7335
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 36.5969
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 24.6626
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 34.8445
+                }
+            }
+        },
+        "TR16024|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 54.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 55.0
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 46.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 42.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 14.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 13.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 6.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 3.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 2.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 0.429462
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 0.36193
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 0.356803
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 0.29607
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 0.118177
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 0.136918
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 0.078159
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 0.0276268
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 0.0161302
+                }
+            }
+        },
+        "TR7065|c0_g2_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 1075.41
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 1153.36
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 1101.13
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 1388.02
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 935.64
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 783.645
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 663.939
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 938.19
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 938.75
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 12.481
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 11.0346
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 12.4572
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 14.2666
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 11.5149
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 12.089
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 12.6036
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 12.5934
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 11.0474
+                }
+            }
+        },
+        "TR17637|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 1185.54
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 1424.25
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 2126.51
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 34781.9
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 50472.6
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 60704.9
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 14210.2
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 15156.1
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 27777.2
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 9.54513
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 9.48726
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 16.6982
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 248.213
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 431.308
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 647.324
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 187.39
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 141.292
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 226.794
+                }
+            }
+        },
+        "TR60786|c0_g2_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 5891.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 7987.0
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 8422.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 39364.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 42218.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 54871.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 16510.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 19715.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 26099.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 50.8797
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 57.0383
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 70.936
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 301.3
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 386.949
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 628.038
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 233.499
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 197.123
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 228.585
+                }
+            }
+        },
+        "TR38621|c0_g1_i3": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 1021.68
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 1163.63
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 1765.02
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 35688.6
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 56101.5
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 51900.2
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 23719.8
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 28998.5
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 38474.1
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 13.3892
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 12.5518
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 22.5422
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 414.06
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 779.334
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 905.438
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 508.146
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 439.319
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 511.234
+                }
+            }
+        },
+        "TR60776|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 960.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 1121.0
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 1351.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 14190.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 17738.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 16625.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 5024.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 4699.99
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 9181.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 15.412
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 14.7688
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 21.1281
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 201.543
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 301.634
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 356.371
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 131.7
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 87.1454
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 149.436
+                }
+            }
+        },
+        "TR22747|c0_g2_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 4079.97
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 5322.8
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 7976.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 132339.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 212666.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 178980.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 129660.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 214392.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 253578.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 47.2701
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 50.8385
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 90.0784
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 1357.9
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 2612.79
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 2756.24
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 2457.14
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 2872.86
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 2979.02
+                }
+            }
+        },
+        "TR17254|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 331.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 331.0
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 192.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 123.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 46.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 79.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 14.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 4.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 9.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 4.45637
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 3.6667
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 2.51906
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 1.46594
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 0.656421
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 1.41641
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 0.308078
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 0.0622487
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 0.122858
+                }
+            }
+        },
+        "TR31274|c0_g1_i2": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 2214.95
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 2269.41
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 2046.45
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 2118.31
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 1555.61
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 1482.88
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 1039.77
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 1260.92
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 1538.86
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 13.4025
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 11.3843
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 12.0804
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 11.3662
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 9.99551
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 11.8599
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 10.3126
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 8.83995
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 9.44324
+                }
+            }
+        },
+        "TR76353|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 657.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 1172.0
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 1184.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 13251.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 18134.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 14826.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 15636.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 28620.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 29564.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 10.3987
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 15.2264
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 18.2558
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 185.56
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 304.034
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 313.251
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 404.137
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 523.21
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 474.414
+                }
+            }
+        },
+        "TR26907|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 1666.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 2102.0
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 3025.99
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 49475.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 75700.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 68954.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 42090.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 56349.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 75456.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 27.3776
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 28.336
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 48.4374
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 719.226
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 1317.54
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 1513.56
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 1129.24
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 1069.33
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 1257.14
+                }
+            }
+        },
+        "TR25484|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 4300.46
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 4720.47
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 4271.36
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 2732.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 1767.02
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 1503.6
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 239.361
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 70.6201
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 262.269
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 53.9753
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 48.7935
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 52.2505
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 30.3606
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 23.5122
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 25.1085
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 4.91207
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 1.02483
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 3.3377
+                }
+            }
+        },
+        "TR24906|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 6044.53
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 9718.39
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 11976.6
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 105657.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 149678.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 110374.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 138154.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 211746.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 228036.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 68.7298
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 91.1159
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 132.75
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 1064.02
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 1804.84
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 1667.77
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 2569.65
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 2784.86
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 2629.18
+                }
+            }
+        },
+        "TR19248|c0_g2_i2": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 61776.3
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 55160.8
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 52349.6
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 82416.3
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 78117.7
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 58919.5
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 48693.6
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 30743.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 62625.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 254.401
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 188.695
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 210.376
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 301.099
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 341.776
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 320.085
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 328.93
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 146.775
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 261.559
+                }
+            }
+        },
+        "TR24256|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 561.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 561.0
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 452.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 1699.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 2102.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 3763.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 182.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 43.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 213.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 8.94239
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 7.33934
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 7.01866
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 23.9604
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 35.4915
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 80.0806
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 4.7373
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 0.791653
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 3.44229
+                }
+            }
+        },
+        "TR8288|c0_g1_i2": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 386.972
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 712.053
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 537.626
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 509.067
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 295.922
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 371.117
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 62.7781
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 120.348
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 109.093
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 6.01174
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 9.08268
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 8.13677
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 6.99753
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 4.87015
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 7.69404
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 1.59281
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 2.15968
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 1.7183
+                }
+            }
+        },
+        "TR58287|c1_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 11585.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 12643.0
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 10327.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 6397.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 3902.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 3516.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 1826.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 2895.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 2683.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 53.5644
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 48.5333
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 46.5917
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 26.2365
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 19.1649
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 21.4565
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 13.8462
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 15.5156
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 12.5811
+                }
+            }
+        },
+        "TR6460|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 375.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 370.0
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 398.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 452.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 318.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 215.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 209.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 170.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 269.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 5.98225
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 4.84432
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 6.18502
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 6.3794
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 5.37353
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 4.5791
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 5.44435
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 3.13225
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 4.35074
+                }
+            }
+        },
+        "TR3455|c0_g1_i1": {
+            "count": {
+                "10": {
+                    "experiment": "10",
+                    "value": 24679.0
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 24714.9
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 26638.0
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 101236.0
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 104646.0
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 83666.0
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 102768.0
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 163301.0
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 180267.0
+                }
+            },
+            "tpm": {
+                "10": {
+                    "experiment": "10",
+                    "value": 80.8381
+                },
+                "11": {
+                    "experiment": "11",
+                    "value": 67.3065
+                },
+                "12": {
+                    "experiment": "12",
+                    "value": 85.1591
+                },
+                "13": {
+                    "experiment": "13",
+                    "value": 294.244
+                },
+                "14": {
+                    "experiment": "14",
+                    "value": 364.25
+                },
+                "15": {
+                    "experiment": "15",
+                    "value": 361.226
+                },
+                "16": {
+                    "experiment": "16",
+                    "value": 552.36
+                },
+                "17": {
+                    "experiment": "17",
+                    "value": 620.301
+                },
+                "18": {
+                    "experiment": "18",
+                    "value": 598.88
+                }
+            }
+        }
+    },
+    "factorOrder": {
+        "study": {
+            "Blackberry (R.genevieri) fruit ripening stages": 1,
+            "Raspberry (R.idaeus cv. Prestige) fruit ripening stages": 2
+        },
+        "Fruit ripening stage": {
+            "green": 1,
+            "immature": 2,
+            "ripe": 3
+        }
+    },
+    "longFactorName": {
+        "study": {
+            "Blackberry (R.genevieri) fruit ripening stages": "Blackberry ripe stages",
+            "Raspberry (R.idaeus cv. Prestige) fruit ripening stages": "Raspberry ripe stages"
+        },
+        "Fruit ripening stage": {
+            "green": "green",
+            "immature": "immature",
+            "ripe": "ripe"
+        }
+    },
+    "selectedFactors": {
+        "study": {
+            "Blackberry (R.genevieri) fruit ripening stages": true,
+            "Raspberry (R.idaeus cv. Prestige) fruit ripening stages": true
+        },
+        "Fruit ripening stage": {
+            "green": true,
+            "immature": true,
+            "ripe": true
+        }
+    },
+    "defaultFactorSelection": {
+        "Age": false,
+        "High level stress-disease": true,
+        "High level age": true,
+        "High level tissue": true,
+        "High level variety": true,
+        "Stress-disease": false,
+        "study": false,
+        "Tissue": false,
+        "Intermediate": false,
+        "Intermediate stress": false
+    },
+    "defaultFactorOrder": ["Fruit ripening stage"],
+    "experiments": {
+        "1": {
+            "name": "Sample_1618_LIB19133_LDI16504",
+            "group": "1"
+        },
+        "2": {
+            "name": "Sample_1618_LIB19134_LDI16505",
+            "group": "2"
+        },
+        "3": {
+            "name": "Sample_1618_LIB19135_LDI16506",
+            "group": "3"
+        },
+        "4": {
+            "name": "Sample_1618_LIB19136_LDI16507",
+            "group": "4"
+        },
+        "5": {
+            "name": "Sample_1618_LIB19137_LDI16508",
+            "group": "5"
+        },
+        "6": {
+            "name": "Sample_1618_LIB19138_LDI16509",
+            "group": "6"
+        },
+        "7": {
+            "name": "Sample_1618_LIB19139_LDI16510",
+            "group": "7"
+        },
+        "8": {
+            "name": "Sample_1618_LIB19140_LDI16511",
+            "group": "8"
+        },
+        "9": {
+            "name": "Sample_1618_LIB19141_LDI16512",
+            "group": "9"
+        },
+        "10": {
+            "name": "Sample_1636_LIB19419_LDI16762",
+            "group": "10"
+        },
+        "11": {
+            "name": "Sample_1636_LIB19420_LDI16763",
+            "group": "11"
+        },
+        "12": {
+            "name": "Sample_1636_LIB19421_LDI16764",
+            "group": "12"
+        },
+        "13": {
+            "name": "Sample_1636_LIB19422_LDI16765",
+            "group": "13"
+        },
+        "14": {
+            "name": "Sample_1636_LIB19423_LDI16766",
+            "group": "14"
+        },
+        "15": {
+            "name": "Sample_1636_LIB19424_LDI16767",
+            "group": "15"
+        },
+        "16": {
+            "name": "Sample_1636_LIB19425_LDI16768",
+            "group": "16"
+        },
+        "17": {
+            "name": "Sample_1636_LIB19426_LDI16769",
+            "group": "17"
+        },
+        "18": {
+            "name": "Sample_1636_LIB19427_LDI16770",
+            "group": "18"
+        }
+    },
+    "groups": {
+        "1": {
+            "name": "Sample_1618_LIB19133_LDI16504",
+            "description": "Sample_1618_LIB19133_LDI16504",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "2": {
+            "name": "Sample_1618_LIB19134_LDI16505",
+            "description": "Sample_1618_LIB19134_LDI16505",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "3": {
+            "name": "Sample_1618_LIB19135_LDI16506",
+            "description": "Sample_1618_LIB19135_LDI16506",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "4": {
+            "name": "Sample_1618_LIB19136_LDI16507",
+            "description": "Sample_1618_LIB19136_LDI16507",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "5": {
+            "name": "Sample_1618_LIB19137_LDI16508",
+            "description": "Sample_1618_LIB19137_LDI16508",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "6": {
+            "name": "Sample_1618_LIB19138_LDI16509",
+            "description": "Sample_1618_LIB19138_LDI16509",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "7": {
+            "name": "Sample_1618_LIB19139_LDI16510",
+            "description": "Sample_1618_LIB19139_LDI16510",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "8": {
+            "name": "Sample_1618_LIB19140_LDI16511",
+            "description": "Sample_1618_LIB19140_LDI16511",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "9": {
+            "name": "Sample_1618_LIB19141_LDI16512",
+            "description": "Sample_1618_LIB19141_LDI16512",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "10": {
+            "name": "Sample_1636_LIB19419_LDI16762",
+            "description": "Sample_1636_LIB19419_LDI16762",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "11": {
+            "name": "Sample_1636_LIB19420_LDI16763",
+            "description": "Sample_1636_LIB19420_LDI16763",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "12": {
+            "name": "Sample_1636_LIB19421_LDI16764",
+            "description": "Sample_1636_LIB19421_LDI16764",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "13": {
+            "name": "Sample_1636_LIB19422_LDI16765",
+            "description": "Sample_1636_LIB19422_LDI16765",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "14": {
+            "name": "Sample_1636_LIB19423_LDI16766",
+            "description": "Sample_1636_LIB19423_LDI16766",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "15": {
+            "name": "Sample_1636_LIB19424_LDI16767",
+            "description": "Sample_1636_LIB19424_LDI16767",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "16": {
+            "name": "Sample_1636_LIB19425_LDI16768",
+            "description": "Sample_1636_LIB19425_LDI16768",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "17": {
+            "name": "Sample_1636_LIB19426_LDI16769",
+            "description": "Sample_1636_LIB19426_LDI16769",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "18": {
+            "name": "Sample_1636_LIB19427_LDI16770",
+            "description": "Sample_1636_LIB19427_LDI16770",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        }
+    }
+}

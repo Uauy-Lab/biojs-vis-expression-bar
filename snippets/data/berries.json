@@ -1,0 +1,373 @@
+{
+    "gene": "TR83257|c0_g1_i2",
+    "tern_order": ["A", "D", "B"],
+    "tooltip_order": ["A", "B", "D"],
+    "expression_bias": {},
+    "expression_bias_colors": {
+        "Azhurnaya": ["#377eb8", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#e41a1c"],
+        "Chinese Spring": ["#377eb8", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#bdbdbd", "#e41a1c"]
+    },
+    "tern": {},
+    "values": {
+        "TR83257|c0_g1_i2": {
+            "count": {
+                "24": {
+                    "experiment": "24",
+                    "value": 719.746
+                },
+                "25": {
+                    "experiment": "25",
+                    "value": 514.743
+                },
+                "8": {
+                    "experiment": "8",
+                    "value": 138.289
+                },
+                "9": {
+                    "experiment": "9",
+                    "value": 89.9829
+                },
+                "7": {
+                    "experiment": "7",
+                    "value": 71.1639
+                },
+                "6": {
+                    "experiment": "6",
+                    "value": 212.756
+                },
+                "5": {
+                    "experiment": "5",
+                    "value": 231.956
+                },
+                "4": {
+                    "experiment": "4",
+                    "value": 249.7
+                },
+                "3": {
+                    "experiment": "3",
+                    "value": 275.835
+                },
+                "2": {
+                    "experiment": "2",
+                    "value": 284.356
+                },
+                "1": {
+                    "experiment": "1",
+                    "value": 363.527
+                }
+            },
+            "tpm": {
+                "24": {
+                    "experiment": "24",
+                    "value": 2.83256
+                },
+                "25": {
+                    "experiment": "25",
+                    "value": 2.34698
+                },
+                "8": {
+                    "experiment": "8",
+                    "value": 1.06678
+                },
+                "9": {
+                    "experiment": "9",
+                    "value": 0.805878
+                },
+                "7": {
+                    "experiment": "7",
+                    "value": 0.768635
+                },
+                "6": {
+                    "experiment": "6",
+                    "value": 2.67539
+                },
+                "5": {
+                    "experiment": "5",
+                    "value": 2.36655
+                },
+                "4": {
+                    "experiment": "4",
+                    "value": 2.76278
+                },
+                "3": {
+                    "experiment": "3",
+                    "value": 3.08613
+                },
+                "2": {
+                    "experiment": "2",
+                    "value": 2.34083
+                },
+                "1": {
+                    "experiment": "1",
+                    "value": 2.60098
+                }
+            }
+        }
+    },
+    "factorOrder": {
+        "study": {
+            "Blackberry (R.genevieri) fruit ripening stages": 1,
+            "Raspberry (R.idaeus cv. Prestige) fruit ripening stages": 2
+        },
+        "Fruit ripening stage": {
+            "green": 1,
+            "immature": 2,
+            "ripe": 3
+        }
+    },
+    "longFactorName": {
+        "study": {
+            "Blackberry (R.genevieri) fruit ripening stages": "Blackberry ripe stages",
+            "Raspberry (R.idaeus cv. Prestige) fruit ripening stages": "Raspberry ripe stages"
+        },
+        "Fruit ripening stage": {
+            "green": "green",
+            "immature": "immature",
+            "ripe": "ripe"
+        }
+    },
+    "selectedFactors": {
+        "study": {
+            "Blackberry (R.genevieri) fruit ripening stages": true,
+            "Raspberry (R.idaeus cv. Prestige) fruit ripening stages": true
+        },
+        "Fruit ripening stage": {
+            "green": true,
+            "immature": true,
+            "ripe": true
+        }
+    },
+    "defaultFactorSelection": {
+        "Age": false,
+        "High level stress-disease": true,
+        "High level age": true,
+        "High level tissue": true,
+        "High level variety": true,
+        "Stress-disease": false,
+        "study": false,
+        "Tissue": false,
+        "Intermediate": false,
+        "Intermediate stress": false
+    },
+    "defaultFactorOrder": ["Fruit ripening stage"],
+    "experiments": {
+        "1": {
+            "name": "Sample_1618_LIB19133_LDI16504",
+            "group": "1"
+        },
+        "2": {
+            "name": "Sample_1618_LIB19134_LDI16505",
+            "group": "2"
+        },
+        "3": {
+            "name": "Sample_1618_LIB19135_LDI16506",
+            "group": "3"
+        },
+        "4": {
+            "name": "Sample_1618_LIB19136_LDI16507",
+            "group": "4"
+        },
+        "5": {
+            "name": "Sample_1618_LIB19137_LDI16508",
+            "group": "5"
+        },
+        "6": {
+            "name": "Sample_1618_LIB19138_LDI16509",
+            "group": "6"
+        },
+        "7": {
+            "name": "Sample_1618_LIB19139_LDI16510",
+            "group": "7"
+        },
+        "8": {
+            "name": "Sample_1618_LIB19140_LDI16511",
+            "group": "8"
+        },
+        "9": {
+            "name": "Sample_1618_LIB19141_LDI16512",
+            "group": "9"
+        },
+        "10": {
+            "name": "Sample_1636_LIB19419_LDI16762",
+            "group": "10"
+        },
+        "11": {
+            "name": "Sample_1636_LIB19420_LDI16763",
+            "group": "11"
+        },
+        "12": {
+            "name": "Sample_1636_LIB19421_LDI16764",
+            "group": "12"
+        },
+        "13": {
+            "name": "Sample_1636_LIB19422_LDI16765",
+            "group": "13"
+        },
+        "14": {
+            "name": "Sample_1636_LIB19423_LDI16766",
+            "group": "14"
+        },
+        "15": {
+            "name": "Sample_1636_LIB19424_LDI16767",
+            "group": "15"
+        },
+        "16": {
+            "name": "Sample_1636_LIB19425_LDI16768",
+            "group": "16"
+        },
+        "17": {
+            "name": "Sample_1636_LIB19426_LDI16769",
+            "group": "17"
+        },
+        "18": {
+            "name": "Sample_1636_LIB19427_LDI16770",
+            "group": "18"
+        }
+    },
+    "groups": {
+        "1": {
+            "name": "Sample_1618_LIB19133_LDI16504",
+            "description": "Sample_1618_LIB19133_LDI16504",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "2": {
+            "name": "Sample_1618_LIB19134_LDI16505",
+            "description": "Sample_1618_LIB19134_LDI16505",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "3": {
+            "name": "Sample_1618_LIB19135_LDI16506",
+            "description": "Sample_1618_LIB19135_LDI16506",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "4": {
+            "name": "Sample_1618_LIB19136_LDI16507",
+            "description": "Sample_1618_LIB19136_LDI16507",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "5": {
+            "name": "Sample_1618_LIB19137_LDI16508",
+            "description": "Sample_1618_LIB19137_LDI16508",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "6": {
+            "name": "Sample_1618_LIB19138_LDI16509",
+            "description": "Sample_1618_LIB19138_LDI16509",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "7": {
+            "name": "Sample_1618_LIB19139_LDI16510",
+            "description": "Sample_1618_LIB19139_LDI16510",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "8": {
+            "name": "Sample_1618_LIB19140_LDI16511",
+            "description": "Sample_1618_LIB19140_LDI16511",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "9": {
+            "name": "Sample_1618_LIB19141_LDI16512",
+            "description": "Sample_1618_LIB19141_LDI16512",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Blackberry (R.genevieri) fruit ripening stages"
+            }
+        },
+        "10": {
+            "name": "Sample_1636_LIB19419_LDI16762",
+            "description": "Sample_1636_LIB19419_LDI16762",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "11": {
+            "name": "Sample_1636_LIB19420_LDI16763",
+            "description": "Sample_1636_LIB19420_LDI16763",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "12": {
+            "name": "Sample_1636_LIB19421_LDI16764",
+            "description": "Sample_1636_LIB19421_LDI16764",
+            "factors": {
+                "Fruit ripening stage": "green",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "13": {
+            "name": "Sample_1636_LIB19422_LDI16765",
+            "description": "Sample_1636_LIB19422_LDI16765",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "14": {
+            "name": "Sample_1636_LIB19423_LDI16766",
+            "description": "Sample_1636_LIB19423_LDI16766",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "15": {
+            "name": "Sample_1636_LIB19424_LDI16767",
+            "description": "Sample_1636_LIB19424_LDI16767",
+            "factors": {
+                "Fruit ripening stage": "immature",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "16": {
+            "name": "Sample_1636_LIB19425_LDI16768",
+            "description": "Sample_1636_LIB19425_LDI16768",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "17": {
+            "name": "Sample_1636_LIB19426_LDI16769",
+            "description": "Sample_1636_LIB19426_LDI16769",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        },
+        "18": {
+            "name": "Sample_1636_LIB19427_LDI16770",
+            "description": "Sample_1636_LIB19427_LDI16770",
+            "factors": {
+                "Fruit ripening stage": "ripe",
+                "study": "Raspberry (R.idaeus cv. Prestige) fruit ripening stages"
+            }
+        }
+    }
+}

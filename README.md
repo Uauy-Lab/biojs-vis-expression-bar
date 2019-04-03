@@ -6,8 +6,11 @@
 > Simple barchart to show expression levels across experiments
 
 ## Getting Started
+
+### Install
 Install the module with: `npm install bio-vis-expression-bar` or `yarn add bio-vis-expression-bar`
 
+### Integrate
 #### HTML
 ```html
 <div class="wrapper" >
@@ -25,20 +28,44 @@ biovisexpressionbar = require("bio-vis-expression-bar");
 
 var container_div="bar_expression_viewer";
 var parentWidth = $("#bar_expression_viewer").parent().width();
-var eb =  new biovisexpressionbar.ExpressionBar({
-	target: container_div,
-	highlight: 'Traes_4AL_F9DCE24F4.1',
-	data: "data/realTestHom.js",
-	groupBy: ["High level Stress-disease", "High level age","High level tissue","High level variety"],
-	renderProperty: 'count',
-	width: '1000',
-	fontFamily:'Helvetica',
-	barHeight: 12
+var expressionBar =  new biovisexpressionbar.ExpressionBar({
+  target: container_div,
+  highlight: 'Traes_4AL_F9DCE24F4.1',
+  data: [pass_the_data_in_json_format],
+  renderProperty: 'tpm',    
+  fontFamily:'Helvetica Neue, Helvetica, Arial, sans-serif',
+  groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"],  
+  height: avaHeight,    // *Important*: available height must be passed
+  width: parentWidth    // Optional: passing the width available for charts
+  plot:'Bar'    // Specifying the chart type (Bar | Heatmap | Ternary (Requires homologues))
 }
 ```
+#### Important resize function
+This function needs to be provided in the javascript file to make the charts to be dynamic
+```javascript
 
-## Documentation
+// Resize function
+var resizeTimer;
+$(window).on('resize', function(e){
+  clearTimeout(resizeTimer);  // Making sure that the reload doesn't happen if the window is resized within 1.5 seconds
+  resizeTimer = setTimeout(function(){
+    var avaHeight = [calculate_the_available_height_for_charts];
+    expressionBar.resizeChart(avaHeight);
+  }, 1500);
+});
+```
 
+### Demo
+#### While developing
+Run ```npm run watch``` or ```yarn run watch``` to keep watching for changes to javascipt while developing <br>
+Run ```npm run sniper``` or ```yarn run sniper``` in a different<br>
+Go to ```localhost:9090``` in your browser<br>
+Navigate to ```snippets/ternary-plot``` ternminal
+#### While not developing
+Run ```npm run build-browser``` or ```yarn run build-browser``` to bundle the javascipt files <br>
+Run ```npm run sniper``` or ```yarn run sniper```<br>
+Go to ```localhost:9090``` in your browser<br>
+Navigate to ```snippets/ternary-plot```
 
 
 ## Contributing
