@@ -2,7 +2,7 @@
   "name": "bio-vis-expression-bar",
   "description": "Simple barchart to show expression levels across experiments",
   "version": "0.8.3",
-  "homepage": "https://github.com/homonecloco/biojs-vis-expression-bar",
+  "homepage": "https://github.com/Uauy-Lab/biojs-vis-expression-bar",
   "license": "MIT",
   "author": {
     "name": "Ricardo H. Ramirez-Gonzalez",
@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/homonecloco/biojs-vis-expression-bar.git"
+    "url": "git://github.com/Uauy-Lab/biojs-vis-expression-bar.git"
   },
   "bugs": {
-    "url": "https://github.com/homonecloco/biojs-vis-expression-bar/issues"
+    "url": "https://github.com/Uauy-Lab/biojs-vis-expression-bar/issues"
   },
   "main": "lib/biovisexpressionbar",
   "scripts": {
