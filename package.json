@@ -36,7 +36,7 @@
     "test": "gulp test",
     "build-browser": "mkdirp build && browserify -r ./:bio-vis-expression-bar -o build/bio-vis-expression-bar.js",
     "build-browser-min": "gulp build-browser-gzip",
-    "prepublish": "gulp",
+    "prepare": "gulp",
     "watch": "mkdirp build && watchify  -r ./:bio-vis-expression-bar -o build/bio-vis-expression-bar.js",
     "sniper": "sniper ."
   },
