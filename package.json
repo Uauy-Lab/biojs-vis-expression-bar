@@ -1,7 +1,7 @@
 {
   "name": "bio-vis-expression-bar",
   "description": "Simple barchart to show expression levels across experiments",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "homepage": "https://github.com/Uauy-Lab/biojs-vis-expression-bar",
   "license": "MIT",
   "author": {
