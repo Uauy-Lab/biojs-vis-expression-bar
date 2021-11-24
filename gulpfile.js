@@ -83,7 +83,7 @@ gulp.task('build-browser', function() {
 gulp.task('build-browser-min', function() {
   gulp.series(['init']);
   return gulp.src(browserFile)
-  .pipe(browserify({}))
+  .pipe(browserify({debug:false}))
   //.pipe(uglify())
   .pipe(rename(outputFileMinSt))
   .pipe(gulp.dest(buildDir));
@@ -98,5 +98,5 @@ gulp.task('build-browser-gzip', function() {
 });
 
 // a failing test breaks the whole build chain
-gulp.task('default',  gulp.series(['lint', 'build-browser', 'build-browser-gzip']));
+gulp.task('default',  gulp.series(['lint', 'build-browser', 'build-browser-min', 'build-browser-gzip']));
 
