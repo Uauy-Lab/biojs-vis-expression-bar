@@ -1,5 +1,4 @@
 var biovisexpressionbar = require("bio-vis-expression-bar");
-var $ = jQuery;
 $(document).ready(function(){
 	runThese();
 })

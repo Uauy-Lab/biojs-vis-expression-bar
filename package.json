@@ -10,7 +10,7 @@
   },
   "sniper": {
     "js": [
-      "/build/bio-vis-expression-bar.js",
+      "/dist/bundle.js",
       "/node_modules/jquery/dist/jquery.js",
       "/node_modules/jquery-ui-dist/jquery-ui.js"
     ],
@@ -37,19 +37,26 @@
     "build-browser": "mkdirp build && browserify -r ./:bio-vis-expression-bar -o build/bio-vis-expression-bar.js",
     "build-browser-min": "gulp build-browser-gzip",
     "prepare": "gulp",
-    "watch": "mkdirp build && watchify  -r ./:bio-vis-expression-bar -o build/bio-vis-expression-bar.js",
-    "sniper": "sniper ."
+    "watch": "mkdirp build && watchify --version && watchify  -r ./:bio-vis-expression-bar -o build/bio-vis-expression-bar.js",
+    "sniper": "sniper .",
+    "webpack": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "biojs-events": "0.0.4",
+    "bootstrap-sass": "^3.4.1",
     "colorbrewer": "1.1",
+    "css-loader": "^6.5.1",
     "d3": "4",
-    "jquery": "^3.4",
-    "jquery-ui": "^1.10.5",
-    "jquery-ui-browserify": "^1.11.0-pre-seelio",
+    "file-loader": "^6.2.0",
+    "jquery": "^3.6",
+    "jquery-ui": "^1.13.0",
     "jquery-ui-dist": "^1.12.1",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.3.0",
     "science": "~1.9.3",
-    "string.prototype.startswith": "0.2.0"
+    "string.prototype.startswith": "0.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.3"
   },
   "devDependencies": {
     "browserify": "~16.3",
@@ -69,7 +76,8 @@
     "mocha": "^6.1",
     "sniper": "^0.2.16",
     "uglify-js": "~3.2",
-    "watchify": "^3.11.0"
+    "watchify": "^4",
+    "webpack-cli": "^4.9.1"
   },
   "keywords": [
     "rna-seq",
