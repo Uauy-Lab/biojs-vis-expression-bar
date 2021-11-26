@@ -10,14 +10,10 @@
   },
   "sniper": {
     "js": [
-      "/dist/bundle.js",
-      "/node_modules/jquery/dist/jquery.js",
-      "/node_modules/jquery-ui-dist/jquery-ui.js"
+      "/dist/bundle.js"
     ],
     "css": [
-      "/css/expression-bar.css",
-      "/node_modules/jquery-ui-dist/jquery-ui.css",
-      "/node_modules/jquery-ui-dist/jquery-ui.theme.css"
+      "/css/expression-bar.css"
     ],
     "first": "exporession-bar-test",
     "snippets": [
@@ -48,7 +44,7 @@
     "css-loader": "^6.5.1",
     "d3": "4",
     "file-loader": "^6.2.0",
-    "jquery": "^3.6",
+    "jquery": "^3.6.0",
     "jquery-ui": "^1.13.0",
     "jquery-ui-dist": "^1.12.1",
     "node-sass": "^6.0.1",
