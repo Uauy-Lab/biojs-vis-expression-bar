@@ -10,10 +10,13 @@
   },
   "sniper": {
     "js": [
+      "/node_modules/jquery/dist/jquery.min.js",
       "/dist/bundle.js"
     ],
     "css": [
-      "/css/expression-bar.css"
+      "/css/expression-bar.css",
+      "/static_modules/jquery-ui-1.13.0/jquery-ui.theme.min.css",
+      "/static_modules/jquery-ui-1.13.0/jquery-ui.min.css"
     ],
     "first": "exporession-bar-test",
     "snippets": [

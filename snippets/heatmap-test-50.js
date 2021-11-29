@@ -2,12 +2,12 @@
 
 
 var container_div="bar_expression_viewer";
-// var parentWidth = $("#bar_expression_viewer").parent().width();
-// var parentHeight = $(window).height();
+var parentWidth = $("#bar_expression_viewer").parent().width();
+var parentHeight = $("#bar_expression_viewer").parent().height();
 
-var parentWidth = 1000;
-var parentHeight = 700;
-console.log(window);
+// var parentWidth = 1000;
+// var parentHeight = 700;
+console.log("Height %d", parentHeight);
 var eb =  new window.ExpressionBar({
 	target: container_div,
 	data: window.location.href + "/../data/new50genes.json", 
@@ -21,10 +21,10 @@ var eb =  new window.ExpressionBar({
 );
 
 
-// var resizeTimer;
-// $(window).on('resize', function(e){      
-//   clearTimeout(resizeTimer);  
-//   resizeTimer = setTimeout(function(){  	
-//     eb.resizeChart();
-//   }, 1500);
-// });
+var resizeTimer;
+$(window).on('resize', function(e){      
+  clearTimeout(resizeTimer);  
+  resizeTimer = setTimeout(function(){  	
+    eb.resizeChart();
+  }, 1500);
+});

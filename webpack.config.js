@@ -16,6 +16,10 @@ module.exports = {
   devServer: {
     static: './dist',
   },
+  externals: {
+    jquery: 'jQuery',
+    jqueryui: 'jquery-ui'
+  },
   module: {
 		rules: [
 			{
