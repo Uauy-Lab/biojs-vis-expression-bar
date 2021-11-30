@@ -1,6 +1,7 @@
-var biovisexpressionbar = require("bio-vis-expression-bar");
-
-$(document).ready(function(){
+// var biovisexpressionbar = require("bio-vis-expression-bar");
+console.log("woooo");
+$(function(){
+	console.log("Running ready!")
 	runThese();
 })
 
@@ -12,7 +13,7 @@ function runThese(){
 
 	var container_div="bar_expression_viewer";
 	var parentWidth = $("#bar_expression_viewer").parent().width();
-	var eb =  new biovisexpressionbar.ExpressionBar({
+	var eb =  new ExpressionBar({
 		target: container_div,
 		highlight: 'Traes_4AL_F9DCE24F4.1',
 		data: window.location.href + "/../data/berries.json",
@@ -23,13 +24,6 @@ function runThese(){
 		plot:'Bar'
 	});
 
-	// Key 'T' for showing the ternary plot as shortcut
-	$(document).keypress(function(event){
-		var keyPressed = (String.fromCharCode(event.which));
-		if(keyPressed === 't'){
-			$(`#bar_expression_viewer_showTernaryPlot`).click();
-		}
-	});
 
 	// Resize function
 	var resizeTimer;

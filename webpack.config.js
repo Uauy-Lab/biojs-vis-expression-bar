@@ -1,15 +1,19 @@
 var path = require('path');
 var webpack = require('webpack');
 
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+// var ExtractTextPlugin = require('extract-text-webpack-plugin');
+// var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = {
+  target: 'web',
   entry: './lib/biovisexpressionbar.js',
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    filename: 'bio-vis-expression-bar.js',
+    path: path.resolve(__dirname, 'dist'),
+    globalObject: 'window',
+    library: 'biovisexpressionbar'
+
   },
   mode: 'development',
   devtool: 'inline-source-map',

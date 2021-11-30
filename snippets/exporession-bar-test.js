@@ -1,11 +1,8 @@
 
-//if(isNode){
-var biovisexpressionbar = require("bio-vis-expression-bar");	
-//}
 
 var container_div="bar_expression_viewer";
 
-var eb =  new biovisexpressionbar.ExpressionBar({
+var eb =  new ExpressionBar({
 	target: container_div,
 	highlight: 'Traes_4AL_F9DCE24F4.1',
 	data: window.location.href + "/../data/realTestHom.js", 	

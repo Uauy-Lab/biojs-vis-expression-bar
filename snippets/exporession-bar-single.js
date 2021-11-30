@@ -1,9 +1,7 @@
 
-biovisexpressionbar = require("bio-vis-expression-bar");	
-
 var container_div="bar_expression_viewer";
 
-var eb =  new biovisexpressionbar.ExpressionBar({
+var eb =  new ExpressionBar({
 	target: container_div,
 	data: window.location.href + "/../data/realTestHom.js", 
 	groupBy: ["High level stress-disease", "High level age","High level tissue","High level variety"], 
