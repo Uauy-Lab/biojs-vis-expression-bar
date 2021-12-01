@@ -10,8 +10,7 @@
   },
   "sniper": {
     "js": [
-      "/node_modules/jquery/dist/jquery.min.js",
-      "/dist/bio-vis-expression-bar.js"
+      "/node_modules/jquery/dist/jquery.min.js"
     ],
     "css": [
       "/css/expression-bar.css",
@@ -30,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/Uauy-Lab/biojs-vis-expression-bar/issues"
   },
-  "main": "lib/biovisexpressionbar",
+  "main": "/dist/bio-vis-expression-bar.js",
   "scripts": {
     "watch": "webpack --config webpack.config.js  --watch",
     "sniper": "sniper .",
@@ -39,7 +38,9 @@
     "prepublishOnly": "webpack --mode=production --config webpack.config.js"
   },
   "dependencies": {
-    "biojs-events": "0.0.4",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
     "colorbrewer": "1.1",
     "css-loader": "^6.5.1",
     "d3": "7",

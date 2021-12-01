@@ -1,1 +1,1 @@
-module.exports = require("./lib/biovisexpressionbar");
+module.exports = require("./lib/expressionBar");

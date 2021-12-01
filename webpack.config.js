@@ -7,13 +7,13 @@ var webpack = require('webpack');
 
 module.exports = {
   target: 'web',
-  entry: './lib/biovisexpressionbar.js',
+  entry: './index.js',
   output: {
     filename: 'bio-vis-expression-bar.js',
     path: path.resolve(__dirname, 'dist'),
-    globalObject: 'window',
-    library: 'biovisexpressionbar'
-
+    library: 'biovisexpressionbar',
+    libraryTarget: 'umd',
+    globalObject: 'window'
   },
   mode: 'development',
   devtool: 'inline-source-map',
@@ -22,7 +22,8 @@ module.exports = {
   },
   externals: {
     jquery: 'jQuery',
-    jqueryui: 'jquery-ui'
+    jqueryui: 'jquery-ui',
+    science: "require('science')"
   },
   module: {
 		rules: [
@@ -31,7 +32,7 @@ module.exports = {
 				loader: 'css-loader',
         options: {
           modules: {
-            mode: "global"
+            mode: "web",
           }
         }
       },
@@ -39,7 +40,21 @@ module.exports = {
 				test: /\.(jpg|png)$/,
 				use: 'file-loader'
 			},
+        {
+          test: /\.(js)$/,
+          exclude: /node_modules/,
+          use: ['babel-loader'],
+        },
 		]
-	}
+	},
+  resolveLoader: {
+    modules: [
+        path.join(__dirname, 'node_modules')
+    ]
+},
+  resolve: {
+    extensions: ['.js'],
+    modules: [path.resolve(__dirname, 'node_modules')],
+  },
 
 };
