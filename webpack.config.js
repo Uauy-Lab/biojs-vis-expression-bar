@@ -7,13 +7,14 @@ var webpack = require('webpack');
 
 module.exports = {
   target: 'web',
-  entry: './index.js',
+  entry: './lib/expressionBar.js',
   output: {
     filename: 'bio-vis-expression-bar.js',
     path: path.resolve(__dirname, 'dist'),
     library: 'biovisexpressionbar',
     libraryTarget: 'umd',
-    globalObject: 'window'
+    globalObject: 'window',
+    libraryExport: 'default'
   },
   mode: 'development',
   devtool: 'inline-source-map',

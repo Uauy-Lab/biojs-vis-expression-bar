@@ -30,6 +30,9 @@
     "url": "https://github.com/Uauy-Lab/biojs-vis-expression-bar/issues"
   },
   "main": "/dist/bio-vis-expression-bar.js",
+  "browser": {
+    "[module-name]": false   
+  },
   "scripts": {
     "watch": "webpack --config webpack.config.js  --watch",
     "sniper": "sniper .",
