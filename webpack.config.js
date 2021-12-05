@@ -23,8 +23,7 @@ module.exports = {
   },
   externals: {
     jquery: 'jQuery',
-    jqueryui: 'jquery-ui',
-    science: "require('science')"
+    jqueryui: 'jquery-ui'
   },
   module: {
 		rules: [

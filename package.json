@@ -1,7 +1,7 @@
 {
   "name": "bio-vis-expression-bar",
   "description": "Simple barchart to show expression levels across experiments",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "homepage": "https://github.com/Uauy-Lab/biojs-vis-expression-bar",
   "license": "MIT",
   "author": {
@@ -10,7 +10,8 @@
   },
   "sniper": {
     "js": [
-      "/node_modules/jquery/dist/jquery.min.js"
+      "/node_modules/jquery/dist/jquery.js",
+      "/dist/bio-vis-expression-bar.js"
     ],
     "css": [
       "/css/expression-bar.css",
@@ -29,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/Uauy-Lab/biojs-vis-expression-bar/issues"
   },
-  "main": "/dist/bio-vis-expression-bar.js",
+  "main": "webpack.config.js",
   "browser": {
     "[module-name]": false   
   },
